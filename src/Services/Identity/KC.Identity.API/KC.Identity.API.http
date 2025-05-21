@@ -1,0 +1,6 @@
+@KC.Identity.API_HostAddress = http://localhost:5285
+
+GET {{KC.Identity.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
