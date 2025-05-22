@@ -20,7 +20,6 @@ namespace KC.Mono.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
             services.AddMonoApi(Configuration, Environment);
 
             _services = services;
@@ -35,8 +34,6 @@ namespace KC.Mono.API
             app.UseMonoApi(config);
             if (env.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();
