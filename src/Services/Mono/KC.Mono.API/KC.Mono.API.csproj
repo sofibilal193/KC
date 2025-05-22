@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <ProjectReference Include="..\..\Identity\KC.Identity.API\KC.Identity.API.csproj" />
+    <ProjectReference Include="..\..\Identity\KC.Config.API\KC.Config.API.csproj" />
   </ItemGroup>
 
 </Project>
