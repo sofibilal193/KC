@@ -1,0 +1,5880 @@
+[
+  {
+    "Name": "Powersports",
+    "SubTypes": [
+      {
+        "Name": "Motorcycles - On Road",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Cruisers"
+          },
+          {
+            "Name": "Dual Sport"
+          },
+          {
+            "Name": "Electric"
+          },
+          {
+            "Name": "Enduro"
+          },
+          {
+            "Name": "Moped"
+          },
+          {
+            "Name": "Motocross"
+          },
+          {
+            "Name": "Racer"
+          },
+          {
+            "Name": "Sport Bikes"
+          },
+          {
+            "Name": "Sport Touring"
+          },
+          {
+            "Name": "Standard"
+          },
+          {
+            "Name": "Touring"
+          },
+          {
+            "Name": "Trails"
+          },
+          {
+            "Name": "Track Racing"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Motorcycles - Off Road",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Dirt Bikes"
+          },
+          {
+            "Name": "Snow Bikes"
+          },
+          {
+            "Name": "Trail"
+          },
+          {
+            "Name": "Utility"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Motorcycles - 3 Wheel",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "3 Wheel Cycle"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Scooter/Moped",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Scooter"
+          },
+          {
+            "Name": "Moped"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "ATV",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "2-Up"
+          },
+          {
+            "Name": "Recreational"
+          },
+          {
+            "Name": "Special Edition"
+          },
+          {
+            "Name": "Sport"
+          },
+          {
+            "Name": "Touring"
+          },
+          {
+            "Name": "Utility"
+          },
+          {
+            "Name": "Youth"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "UTV/Side-by-Side",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Crew Cab"
+          },
+          {
+            "Name": "Side-by-Side"
+          },
+          {
+            "Name": "Sport"
+          },
+          {
+            "Name": "Youth"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Personal Watercraft",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "HIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{12,15}",
+            "MinLength": 12,
+            "MaxLength": 15,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePowerHP",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Jet Boat"
+          },
+          {
+            "Name": "Performance"
+          },
+          {
+            "Name": "Pontoon/Switch"
+          },
+          {
+            "Name": "Recreation"
+          },
+          {
+            "Name": "Rec Lite"
+          },
+          {
+            "Name": "Sport Fishing"
+          },
+          {
+            "Name": "Touring"
+          },
+          {
+            "Name": "Tow Sports"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Snowmobile",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Crossover"
+          },
+          {
+            "Name": "Mid Sized"
+          },
+          {
+            "Name": "Mountain"
+          },
+          {
+            "Name": "Performance"
+          },
+          {
+            "Name": "Touring"
+          },
+          {
+            "Name": "Trail"
+          },
+          {
+            "Name": "Utility"
+          },
+          {
+            "Name": "Youth"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "E-Bikes",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "SerialNo",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePowerW",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "1",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Class 1"
+          },
+          {
+            "Name": "Class 2"
+          },
+          {
+            "Name": "Class 3"
+          },
+          {
+            "Name": "Cargo & Utility"
+          },
+          {
+            "Name": "City & Commuter"
+          },
+          {
+            "Name": "Folding"
+          },
+          {
+            "Name": "High Step"
+          },
+          {
+            "Name": "Motorbike"
+          },
+          {
+            "Name": "Off-Road"
+          },
+          {
+            "Name": "Scooter"
+          },
+          {
+            "Name": "Step-Thru"
+          },
+          {
+            "Name": "Trike"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Trailer",
+    "SubTypes": [
+      {
+        "Name": "Boat/Marine",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "StockNo",
+            "Label": "StockNo",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "IsContractingRequired": true
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Bunk"
+          },
+          {
+            "Name": "Float-On"
+          },
+          {
+            "Name": "Keel"
+          },
+          {
+            "Name": "Roller"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Car Haulers",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Dump",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Enclosed Cargo",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Enclosed Snow",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Enclosed Utility",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Equipment",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Flat Bed",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Gooseneck",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Livestock",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Motorcycle (3-rail)",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Open Snow",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Tilt",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Utility",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Other",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "TIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,17}",
+            "MinLength": 6,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Marine",
+    "SubTypes": [
+      {
+        "Name": "Boat",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "HIN",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "Regex": "[(A-Z|0-9)]{12,15}",
+            "MinLength": 12,
+            "MaxLength": 15,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "StockNo",
+            "Label": "StockNo",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "IsContractingRequired": true
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Cabin Cruiser"
+          },
+          {
+            "Name": "Fishing Boat"
+          },
+          {
+            "Name": "House Boat"
+          },
+          {
+            "Name": "Jet Boat"
+          },
+          {
+            "Name": "Pontoon"
+          },
+          {
+            "Name": "Runabout"
+          },
+          {
+            "Name": "Ski/Wake Boat"
+          },
+          {
+            "Name": "Sport Boat"
+          },
+          {
+            "Name": "Yacht"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Engine",
+        "IsMainUnit": false,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "SerialNo",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{6,12}",
+            "MinLength": 6,
+            "MaxLength": 12,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeL",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePowerHP",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "1",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Jet Drive - Gas"
+          },
+          {
+            "Name": "Inboard - Diesel"
+          },
+          {
+            "Name": "Inboard - Gas"
+          },
+          {
+            "Name": "Outboard - Diesel"
+          },
+          {
+            "Name": "Outboard - Electric"
+          },
+          {
+            "Name": "Outboard - Gas"
+          },
+          {
+            "Name": "Sterndrive - Diesel"
+          },
+          {
+            "Name": "Sterndrive - Gas"
+          },
+          {
+            "Name": "Surface Drive - Diesel"
+          },
+          {
+            "Name": "Surface Drive - Gas"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Generator",
+        "IsMainUnit": false,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "SerialNo",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "MinLength": 6,
+            "MaxLength": 12
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "GeneratorPowerKW",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "2",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Diesel"
+          },
+          {
+            "Name": "Gas"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      },
+      {
+        "Name": "Personal Watercraft",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "HIN",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{12,15}",
+            "MinLength": 12,
+            "MaxLength": 15,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSizeCC",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false,
+            "IsContractingRequired": true
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePowerHP",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": "0",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "StockNo",
+            "Label": "StockNo",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": false,
+            "IsContractingRequired": true
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Jet Boat"
+          },
+          {
+            "Name": "Performance"
+          },
+          {
+            "Name": "Pontoon/Switch"
+          },
+          {
+            "Name": "Recreation"
+          },
+          {
+            "Name": "Rec Lite"
+          },
+          {
+            "Name": "Sport Fishing"
+          },
+          {
+            "Name": "Touring"
+          },
+          {
+            "Name": "Tow Sports"
+          },
+          {
+            "Name": "Other"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "RV",
+    "SubTypes": [
+      {
+        "Name": "Class A",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Gas"
+          },
+          {
+            "Name": "Diesel"
+          }
+        ]
+      },
+      {
+        "Name": "Class B",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Gas"
+          },
+          {
+            "Name": "Diesel"
+          }
+        ]
+      },
+      {
+        "Name": "Class C",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Gas"
+          },
+          {
+            "Name": "Diesel"
+          }
+        ]
+      },
+      {
+        "Name": "Fifth Wheel",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Park Model",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Tent Camper",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Travel Trailer",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Truck Camper",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      },
+      {
+        "Name": "Other",
+        "IsMainUnit": true,
+        "Fields": [
+          {
+            "Name": "VIN",
+            "Label": "VIN",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true,
+            "Regex": "[(A-H|J-N|P|R-Z|0-9)]{17}",
+            "MinLength": 17,
+            "MaxLength": 17,
+            "AgeRequired": ["New", "Used", "CPO"]
+          },
+          {
+            "Name": "Year",
+            "Label": "Year",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Age",
+            "Label": "Age",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Make",
+            "Label": "Make",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Model",
+            "Label": "Model",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Trim",
+            "Label": "Trim",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Mileage",
+            "Label": "Mileage",
+            "IsVisible": true,
+            "IsRequired": true,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "Hours",
+            "Label": "Hours",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSize",
+            "Label": "EngineSize",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePower",
+            "Label": "EnginePower",
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EngineSizeType",
+            "Label": "EngineSizeType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "EnginePowerType",
+            "Label": "EnginePowerType",
+            "DefaultValue": null,
+            "IsVisible": false,
+            "IsRequired": false
+          },
+          {
+            "Name": "Axles",
+            "Label": "# Axles",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "MSRP",
+            "Label": "MSRP",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Invoice",
+            "Label": "Invoice",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "BookValue",
+            "Label": "BookValue",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "IsOEMWarrantyActive",
+            "Label": "IsOEMWarrantyActive",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "InServiceDate",
+            "Label": "InServiceDate",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyTerm",
+            "Label": "OEMWarrantyTerm",
+            "IsVisible": true,
+            "IsRequired": false,
+            "IsRatingRequired": true
+          },
+          {
+            "Name": "OEMWarrantyEndDate",
+            "Label": "OEMWarrantyEndDate",
+            "IsVisible": true,
+            "IsRequired": false
+          },
+          {
+            "Name": "Category",
+            "Label": "Category",
+            "IsVisible": true,
+            "IsRequired": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "Type": "SuperAdmin",
+    "Code": "sysadmin",
+    "Name": "System Admin",
+    "LegalName": "One Dealer Lane",
+    "Phone": "(000) 000-0000",
+    "Fax": "(000) 000-0000",
+    "Website": "http://www.onedealerlane.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "9700 E. Arapahoe Rd.",
+      "Address2": "Ste 101A",
+      "City": "Greenwood Village",
+      "State": "CO",
+      "ZipCode": "80112"
+    }
+  }
+]

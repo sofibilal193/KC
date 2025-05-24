@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
-namespace ODL.Identity.API.Controllers.Auth
+namespace KC.Identity.API.Controllers.Auth
 {
     [ApiVersion("1.0")]
     [AllowAnonymous]

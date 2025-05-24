@@ -1,0 +1,16 @@
+[
+    {
+        "Type": "EmploymentType",
+        "Value": "1",
+        "Name": "Full Time",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "EmploymentType",
+        "Value": "0",
+        "Name": "Part Time",
+        "Description": null,
+        "DisplayOrder": 2
+    }
+]

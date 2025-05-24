@@ -1,0 +1,23 @@
+[
+    {
+        "Type": "UnitEnginePowerType",
+        "Name": "HP",
+        "Value": "0",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "UnitEnginePowerType",
+        "Name": "W",
+        "Value": "1",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "UnitEnginePowerType",
+        "Name": "KW",
+        "Value": "2",
+        "Description": null,
+        "DisplayOrder": 3
+    }
+]

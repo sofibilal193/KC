@@ -1,0 +1,30 @@
+[
+  {
+      "Type": "DocStatus",
+      "Value": "0",
+      "Name": "New",
+      "Description": null,
+      "DisplayOrder": 1
+  },
+  {
+      "Type": "DocStatus",
+      "Value": "1",
+      "Name": "Viewed",
+      "Description": null,
+      "DisplayOrder": 2
+  },
+  {
+      "Type": "DocStatus",
+      "Value": "2",
+      "Name": "Signed",
+      "Description": null,
+      "DisplayOrder": 3
+  },
+  {
+      "Type": "DocStatus",
+      "Value": "3",
+      "Name": "Downloaded",
+      "Description": null,
+      "DisplayOrder": 4
+  }
+]

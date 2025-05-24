@@ -1,0 +1,388 @@
+[
+  {
+    "Category": "Security",
+    "Description": "Notifications related to security events.",
+    "Notifications": [
+      {
+        "Name": "User Added",
+        "Description": "This notification is sent when a new user has been added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "User Invitation Accepted",
+        "Description": "This notification is sent when a new user has accepted their user invitation.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "User Invitation Deleted",
+        "Description": "This notification is sent when a new user invitation has been deleted.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "User Updated",
+        "Description": "This notification is sent when a change is made to a user account.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "User Password Changed",
+        "Description": "This notification is sent when a change is made to a user's account password.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": false,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "User Profile Updated",
+        "Description": "This notification is sent when a change is made to a user's account profile.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": false,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Location Added",
+        "Description": "This notification is sent when a new location is added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Location Updated",
+        "Description": "This notification is sent when location information is changed or a location is disabled.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Role Added",
+        "Description": "This notification is sent when a new custom role is added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Role Updated",
+        "Description": "This notification is sent when a custom role is updated.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Settings",
+    "Description": "Notifications related to settings.",
+    "Notifications": [
+      {
+        "Name": "Tax Profile Added",
+        "Description": "This notification is sent when a new tax profile is added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Tax Profile Updated",
+        "Description": "This notification is sent when a tax profile is changed or disabled.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "System Defaults Updated",
+        "Description": "This notification is sent when system defaults are updated.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Integrations Updated",
+        "Description": "This notification is sent when changes are made to 3rd party integrations.",
+        "InApp": true,
+        "InAppRoles": ["Administrator"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Lender Added",
+        "Description": "This notification is sent when a new lender is added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Lender Updated",
+        "Description": "This notification is sent when lender information is changed or disabled.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Rated Products Updated",
+        "Description": "This notification is sent when configuration changes for rated products.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Dealer Product Added",
+        "Description": "This notification is sent when a new dealer product is added.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Dealer Product Updated",
+        "Description": "This notification is sent when a dealer product is changed.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Dealer Product Deleted",
+        "Description": "This notification is sent when a dealer product is deleted.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Accounting", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Menu Columns Updated",
+        "Description": "This notification is sent when menu column configuration changes.",
+        "InApp": true,
+        "InAppRoles": ["Administrator", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Leads",
+    "Description": "Notifications related to leads.",
+    "Notifications": [
+      {
+        "Name": "Lead Added",
+        "Description": "This notification is sent when a new lead is added.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Lead Deleted",
+        "Description": "This notification is sent when a lead is deleted.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Quotes",
+    "Description": "Notifications related to quotes.",
+    "Notifications": [
+      {
+        "Name": "Quote Created",
+        "Description": "This notification is sent when a new quote is created.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Quote Blocked",
+        "Description": "This notification is sent when a quote is blocked.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Quote Inactive",
+        "Description": "This notification is sent when a quote is marked inactive.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Quote Deleted",
+        "Description": "This notification is sent when a quote is deleted.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Quote Converted",
+        "Description": "This notification is sent when a quote is converted to a deal.",
+        "InApp": true,
+        "InAppRoles": ["Finance", "SalesManager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Deals",
+    "Description": "Notifications related to deals.",
+    "Notifications": [
+      {
+        "Name": "Deal Created",
+        "Description": "This notification is sent when a new deal is created.",
+        "InApp": true,
+        "InAppRoles": ["Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Deal Blocked",
+        "Description": "This notification is sent when a deal is blocked.",
+        "InApp": true,
+        "InAppRoles": ["Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Deal Inactive",
+        "Description": "This notification is sent when a deal is marked inactive.",
+        "InApp": true,
+        "InAppRoles": ["Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Deal Closed",
+        "Description": "This notification is sent when a deal is marked closed.",
+        "InApp": true,
+        "InAppRoles": ["Finance", "Accounting"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Deal Deleted",
+        "Description": "This notification is sent when a deal is deleted.",
+        "InApp": true,
+        "InAppRoles": ["Finance", "Accounting"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      },
+      {
+        "Name": "Menu Presented",
+        "Description": "This notification is sent when the menu presentation is completed for a deal.",
+        "InApp": true,
+        "InAppRoles": ["Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Credit Apps",
+    "Description": "Notifications related to credit applications.",
+    "Notifications": [
+      {
+        "Name": "New Credit App Submitted",
+        "Description": "This notification is sent when a new credit application is submitted by a customer.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "SalesManager", "Finance"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+    {
+      "Type": "TaxProfileJurisdictionType",
+      "Value": "0",
+      "Name": "All",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "TaxProfileJurisdictionType",
+      "Value": "1",
+      "Name": "In State",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "TaxProfileJurisdictionType",
+      "Value": "2",
+      "Name": "Out of State",
+      "Description": null,
+      "DisplayOrder": 3
+    }
+]

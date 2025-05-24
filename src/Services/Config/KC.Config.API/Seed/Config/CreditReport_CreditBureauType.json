@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "CreditBureauType",
+    "Value": "0",
+    "Name": "Equifax",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "CreditBureauType",
+    "Value": "1",
+    "Name": "Experian",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "CreditBureauType",
+    "Value": "2",
+    "Name": "TransUnion",
+    "Description": null,
+    "DisplayOrder": 3
+  }
+]

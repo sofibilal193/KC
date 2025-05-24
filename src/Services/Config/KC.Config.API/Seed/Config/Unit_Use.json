@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "UnitUse",
+    "Name": "Personal",
+    "Value": "0",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "UnitUse",
+    "Name": "Commercial",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

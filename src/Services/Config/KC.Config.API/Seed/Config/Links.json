@@ -1,0 +1,16 @@
+[
+    {
+      "Type": "Links",
+      "Value": "https://www.onedealerlane.com/docs/ODL_Terms_of_Use.pdf",
+      "Name": "TermsOfUse",
+      "Description": "Terms of Use Link",
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "Links",
+      "Value": "https://www.onedealerlane.com/docs/ODL_Privacy_Policy.pdf",
+      "Name": "PrivacyPolicy",
+      "Description": "Privacy Policy Link",
+      "DisplayOrder": 2
+    }
+]

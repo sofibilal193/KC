@@ -1,0 +1,382 @@
+[
+  {
+    "Category": "UserManagement",
+    "Name": "ViewUsers",
+    "Description": "This permission gives access to view users for a location."
+  },
+  {
+    "Category": "UserManagement",
+    "Name": "UpdateUser",
+    "Description": "This permission gives access to update a user to a location."
+  },
+  {
+    "Category": "UserManagement",
+    "Name": "DeleteUser",
+    "Description": "This permission gives access to delete a user for a location."
+  },
+  {
+    "Category": "LocationManagement",
+    "Name": "ViewLocations",
+    "Description": "This permission gives access to view locations."
+  },
+  {
+    "Category": "LocationManagement",
+    "Name": "UpdateLocation",
+    "Description": "This permission gives access to update profile information for a location."
+  },
+  {
+    "Category": "IntegrationsManagement",
+    "Name": "ViewIntegrations",
+    "Description": "This permission gives access to view the available 3rd party integrations for a location."
+  },
+  {
+    "Category": "IntegrationsManagement",
+    "Name": "UpdateIntegrations",
+    "Description": "This permission gives access to enable/disable available 3rd party integrations for a location."
+  },
+  {
+    "Category": "SysDefaultsManagement",
+    "Name": "ViewSysDefaults",
+    "Description": "This permission gives access to view the available system defaults for a location."
+  },
+  {
+    "Category": "SysDefaultsManagement",
+    "Name": "UpdateSysDefaults",
+    "Description": "This permission gives access to update values for available system defaults for a location."
+  },
+  {
+    "Category": "CreditAppsManagement",
+    "Name": "ViewCreditApps",
+    "Description": "This permission gives access to view credit applications for a location."
+  },
+  {
+    "Category": "CreditAppsManagement",
+    "Name": "UpdateCreditApps",
+    "Description": "This permission gives access to update credit apps for a location. This permission also gives access to view PII data in a credit app."
+  },
+  {
+    "Category": "CreditAppsManagement",
+    "Name": "AssociateCreditApps",
+    "Description": "This permission gives access to associate credit apps with deals/quotes."
+  },
+  {
+    "Category": "ProductsConfigManagement",
+    "Name": "ViewProductsConfig",
+    "Description": "This permission gives access to view the products configuration for a location."
+  },
+  {
+    "Category": "ProductsConfigManagement",
+    "Name": "UpdateProductsConfig",
+    "Description": "This permission gives access to update the products configuration for a location."
+  },
+  {
+    "Category": "ProductsConfigManagement",
+    "Name": "ViewProductCostProductsConfig",
+    "Description": "This permission gives access to view cost information on the product configuration screens."
+  },
+  {
+    "Category": "LenderManagement",
+    "Name": "ViewLender",
+    "Description": "This permission gives access to view lender information."
+  },
+  {
+    "Category": "LenderManagement",
+    "Name": "UpdateLender",
+    "Description": "This permission gives access to update the lender information."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "ViewDeal",
+    "Description": "This permission gives access to view deal information."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "UpdateDeal",
+    "Description": "This permission gives access to update deal information."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "DeleteDeal",
+    "Description": "This permission gives access to delete a deal."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "DeadDeal",
+    "Description": "This permission gives access to mark a deal dead."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "CloseDeal",
+    "Description": "This permission gives access to mark a deal closed."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "ViewProductCostDeal",
+    "Description": "This permission gives access to view product cost information in a deal."
+  },
+  {
+    "Category": "DealManagement",
+    "Name": "DMSPushDeal",
+    "Description": "This permission gives access to push a deal to the DMS."
+  },
+  {
+    "Category": "LeadManagement",
+    "Name": "ViewLead",
+    "Description": "This permission gives access to view lead information."
+  },
+  {
+    "Category": "LeadManagement",
+    "Name": "UpdateLead",
+    "Description": "This permission gives access to update lead information."
+  },
+  {
+    "Category": "LeadManagement",
+    "Name": "DeleteLead",
+    "Description": "This permission gives access to delete a lead."
+  },
+  {
+    "Category": "CustomerManagement",
+    "Name": "ViewCustomer",
+    "Description": "This permission gives access to view customer information."
+  },
+  {
+    "Category": "CustomerManagement",
+    "Name": "UpdateCustomer",
+    "Description": "This permission gives access to update customer information."
+  },
+  {
+    "Category": "CustomerManagement",
+    "Name": "DeleteCustomer",
+    "Description": "This permission gives access to delete a customer."
+  },
+  {
+    "Category": "RoleManagement",
+    "Name": "ViewRoles",
+    "Description": "This permission gives access to view roles for a location."
+  },
+  {
+    "Category": "RoleManagement",
+    "Name": "UpdateRole",
+    "Description": "This permission gives access to add/update a role for a location."
+  },
+  {
+    "Category": "ProductsRemittanceManagement",
+    "Name": "ViewProductsRemittance",
+    "Description": "This permission gives access to view product contracts available for remittance for a location."
+  },
+  {
+    "Category": "ProductsRemittanceManagement",
+    "Name": "VoidProductsRemittance",
+    "Description": "This permission gives access to void product contracts for a location."
+  },
+  {
+    "Category": "ProductsRemittanceManagement",
+    "Name": "RemitProductsRemittance",
+    "Description": "This permission gives access to remit product contracts for a location."
+  },
+  {
+    "Category": "ProductsRemittanceManagement",
+    "Name": "ArchiveProductsRemittance",
+    "Description": "This permission gives access to archive product contracts for a location."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ViewQuote",
+    "Description": "This permission gives access to view quote information."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "UpdateQuote",
+    "Description": "This permission gives access to update quote information."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "DeleteQuote",
+    "Description": "This permission gives access to delete a quote."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ApproveQuote",
+    "Description": "This permission gives access to approve a quote."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ModifyQuoteTaxes",
+    "Description": "This permission gives access to modify taxes on quotes."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ViewQuoteCosts",
+    "Description": "This permission gives access to view dealer costs on quotes. This includes costs for parts, accessories and labor."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "UpdateQuotePricing",
+    "Description": "This permission gives access to update prices on quotes including the purchase price of the unit."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ConvertQuote",
+    "Description": "This permissions gives access to convert a quote to a deal."
+  },
+  {
+    "Category": "QuoteManagement",
+    "Name": "ConvertToDealOverride",
+    "Description": "This permission allows a user to override any blockers such as incomplete checklist items when converting a quote to a deal."
+  },
+  {
+    "Category": "TaxProfileManagement",
+    "Name": "ViewTaxProfile",
+    "Description": "This permission gives access to view tax profile information."
+  },
+  {
+    "Category": "TaxProfileManagement",
+    "Name": "UpdateTaxProfile",
+    "Description": "This permission gives access to update tax profile information."
+  },
+  {
+    "Category": "TaxProfileManagement",
+    "Name": "DeleteTaxProfile",
+    "Description": "This permission gives access to delete a tax profile."
+  },
+  {
+    "Category": "OrgsManagement",
+    "Name": "ViewOrgs",
+    "Description": "This permission gives access to view org information."
+  },
+  {
+    "Category": "OrgsManagement",
+    "Name": "ImpersonateOrg",
+    "Description": "This permission gives access to impersonate an org."
+  },
+  {
+    "Category": "OrgsManagement",
+    "Name": "UpdateOrg",
+    "Description": "This permission gives access to update org information."
+  },
+  {
+    "Category": "OrgsManagement",
+    "Name": "DeleteOrg",
+    "Description": "This permission gives access to delete an org."
+  },
+  {
+    "Category": "UniqueUsersManagement",
+    "Name": "ViewUniqueUsers",
+    "Description": "This permission gives access to view unique user information."
+  },
+  {
+    "Category": "UniqueUsersManagement",
+    "Name": "UpdateUniqueUser",
+    "Description": "This permission gives access to update unique user information."
+  },
+  {
+    "Category": "UniqueUsersManagement",
+    "Name": "DeleteUniqueUser",
+    "Description": "This permission gives access to delete an unique user."
+  },
+  {
+    "Category": "PIIManagement",
+    "Name": "ViewFullPII",
+    "Description": "This permission gives access to view PII information."
+  },
+  {
+    "Category": "PIIManagement",
+    "Name": "ViewPartialPII",
+    "Description": "This permission gives access to view partial PII information."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "PullPreQualifyReport",
+    "Description": "This permission gives access to pulling a Pre-Qualify (soft inquiry) report on a lead/customer."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "ViewPreQualifyReport",
+    "Description": "This permission gives access to viewing a previously pulled Pre-Qualify (soft inquiry) report on a lead/customer."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "PullCreditReport",
+    "Description": "This permission gives access to pulling a credit report (hard inquiry) on a lead/customer."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "ViewCreditReport",
+    "Description": "This permission gives access to viewing a previously pulled credit report (hard inquiry) on a lead/customer."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "ViewCreditScore",
+    "Description": "This permission gives access to viewing the score only for a previously pulled credit report (hard or soft inquiry) on a lead/customer."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "ViewCreditDashboard",
+    "Description": "This permission gives access to viewing the 700 Credit dashboard."
+  },
+  {
+    "Category": "CreditReportsManagement",
+    "Name": "ViewCreditReportList",
+    "Description": "This permission gives access to viewing the Credit report listing."
+  },
+  {
+    "Category": "DocsManagement",
+    "Name": "ViewDocs",
+    "Description": "This permission gives access to view documents."
+  },
+  {
+    "Category": "DocsManagement",
+    "Name": "DeleteDocs",
+    "Description": "This permission gives access to delete documents."
+  },
+  {
+    "Category": "DocsManagement",
+    "Name": "UploadDocs",
+    "Description": "This permission gives access to upload docs."
+  },
+  {
+    "Category": "NotificationsManagement",
+    "Name": "ViewOrgNotifications",
+    "Description": "This permission gives access to view notifications configuration for a location."
+  },
+  {
+    "Category": "NotificationsManagement",
+    "Name": "UpdateOrgNotifications",
+    "Description": "This permission gives access to update notifications configuration for a location."
+  },
+  {
+    "Category": "GeneralManagement",
+    "Name": "ViewPaymentCalculator",
+    "Description": "This permission gives access to view and use the Payment Calculator."
+  },
+  {
+    "Category": "ChecklistManagement",
+    "Name": "ViewChecklist",
+    "Description": "This permission gives access to view deal/quote checklist information."
+  },
+  {
+    "Category": "ChecklistManagement",
+    "Name": "UpdateChecklist",
+    "Description": "This permission gives access to update deal/quote checklist information."
+  },
+  {
+    "Category": "ComplianceManagement",
+    "Name": "ViewOFAC",
+    "Description": "This permission gives access to view OFAC information."
+  },
+  {
+    "Category": "ComplianceManagement",
+    "Name": "PullOFAC",
+    "Description": "This permission gives access to pull OFAC information."
+  },
+  {
+    "Category": "ComplianceManagement",
+    "Name": "ViewRFR",
+    "Description": "This permission gives access to view Red Flag Rules."
+  },
+  {
+    "Category": "ComplianceManagement",
+    "Name": "PullRFR",
+    "Description": "This permission gives access to pull Red Flag Rules."
+  }
+]

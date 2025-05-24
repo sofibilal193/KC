@@ -1,0 +1,79 @@
+[
+    {
+      "Type": "BusinessType",
+      "Value": "Sole Proprietorship",
+      "Name": "Sole Proprietorship",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Partnership",
+      "Name": "Partnership",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Limited Liability Company (LLC)",
+      "Name": "Limited Liability Company (LLC)",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Limited Liability Partnership (LLP)",
+      "Name": "Limited Liability Partnership (LLP)",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Limited Company (LTD)",
+      "Name": "Limited Company (LTD)",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "S Corporation",
+      "Name": "S Corporation",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "C Corporation",
+      "Name": "C Corporation",
+      "Description": null,
+      "DisplayOrder": 7
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Non-Profit Corporation",
+      "Name": "Non-Profit Corporation",
+      "Description": null,
+      "DisplayOrder": 8
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Professional Corporation (PC)",
+      "Name": "Professional Corporation (PC)",
+      "Description": null,
+      "DisplayOrder": 9
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Professional Association (PA)",
+      "Name": "Professional Association (PA)",
+      "Description": null,
+      "DisplayOrder": 10
+    },
+    {
+      "Type": "BusinessType",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 11
+    }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "ProductMarkupType",
+    "Value": "0",
+    "Name": "Flat Amount",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "ProductMarkupType",
+    "Value": "1",
+    "Name": "Cost Factor",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "ProductMarkupType",
+    "Value": "2",
+    "Name": "Fixed Price",
+    "Description": null,
+    "DisplayOrder": 3
+  }
+]

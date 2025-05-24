@@ -1,0 +1,37 @@
+[
+    {
+      "Type": "DealLender_DecisionStatus",
+      "Value": "0",
+      "Name": "Pending",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "DealLender_DecisionStatus",
+      "Value": "1",
+      "Name": "Declined",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "DealLender_DecisionStatus",
+      "Value": "2",
+      "Name": "Conditioned",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "DealLender_DecisionStatus",
+      "Value": "3",
+      "Name": "Approved",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "DealLender_DecisionStatus",
+      "Value": "4",
+      "Name": "Withdrawn",
+      "Description": null,
+      "DisplayOrder": 5
+    }
+  ]

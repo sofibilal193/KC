@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "IncomeFrequencyType",
+        "Value": "0",
+        "Name": "Monthly",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "IncomeFrequencyType",
+        "Value": "1",
+        "Name": "Annually",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "IncomeFrequencyType",
+        "Value": "2",
+        "Name": "Weekly",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "IncomeFrequencyType",
+        "Value": "3",
+        "Name": "Bi-Weekly",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "IncomeFrequencyType",
+        "Value": "4",
+        "Name": "Semi-Monthly",
+        "Description": null,
+        "DisplayOrder": 5
+    }
+]

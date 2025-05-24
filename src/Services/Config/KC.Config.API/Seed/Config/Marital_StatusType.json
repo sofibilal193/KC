@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "MaritalStatusType",
+        "Value": "0",
+        "Name": "Single",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "MaritalStatusType",
+        "Value": "1",
+        "Name": "Married",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "MaritalStatusType",
+        "Value": "2",
+        "Name": "Divorced",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "MaritalStatusType",
+        "Value": "3",
+        "Name": "Separated",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "MaritalStatusType",
+        "Value": "4",
+        "Name": "Widowed",
+        "Description": null,
+        "DisplayOrder": 5
+    }
+]

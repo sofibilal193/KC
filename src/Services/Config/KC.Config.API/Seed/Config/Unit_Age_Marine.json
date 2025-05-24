@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "UnitAgeMarine",
+        "Value": "0",
+        "Name": "New",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "UnitAgeMarine",
+        "Value": "1",
+        "Name": "Used",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "UnitAgeMarine",
+        "Value": "2",
+        "Name": "CPO",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "UnitAgeMarine",
+        "Value": "3",
+        "Name": "Consignment",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "UnitAgeMarine",
+        "Value": "4",
+        "Name": "On Order",
+        "Description": null,
+        "DisplayOrder": 5
+    }
+]

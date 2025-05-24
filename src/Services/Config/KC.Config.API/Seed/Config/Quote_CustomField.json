@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "QuoteCustomField",
+    "Value": "0",
+    "Name": "Fees",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "QuoteCustomField",
+    "Value": "1",
+    "Name": "Payment",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "QuoteCustomField",
+    "Value": "2",
+    "Name": "Rebate",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "QuoteCustomField",
+    "Value": "3",
+    "Name": "Taxes",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

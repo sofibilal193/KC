@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "ComplianceRequestType",
+    "Value": "3",
+    "Name": "OFAC Report",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "ComplianceRequestType",
+    "Value": "5",
+    "Name": "Red Flag Report",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

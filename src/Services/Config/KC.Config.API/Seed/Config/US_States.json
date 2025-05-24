@@ -1,0 +1,373 @@
+[
+    {
+      "Type": "USStates",
+      "Value": "AL",
+      "Name": "Alabama",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "USStates",
+      "Value": "AK",
+      "Name": "Alaska",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "USStates",
+      "Value": "AZ",
+      "Name": "Arizona",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "USStates",
+      "Value": "AR",
+      "Name": "Arkansas",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "USStates",
+      "Value": "CA",
+      "Name": "California",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "USStates",
+      "Value": "CO",
+      "Name": "Colorado",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "USStates",
+      "Value": "CT",
+      "Name": "Connecticut",
+      "Description": null,
+      "DisplayOrder": 7
+    },
+    {
+      "Type": "USStates",
+      "Value": "DE",
+      "Name": "Delaware",
+      "Description": null,
+      "DisplayOrder": 8
+    },
+    {
+      "Type": "USStates",
+      "Value": "FL",
+      "Name": "Florida",
+      "Description": null,
+      "DisplayOrder": 9
+    },
+    {
+      "Type": "USStates",
+      "Value": "GA",
+      "Name": "Georgia",
+      "Description": null,
+      "DisplayOrder": 10
+    },
+    {
+      "Type": "USStates",
+      "Value": "HI",
+      "Name": "Hawaii",
+      "Description": null,
+      "DisplayOrder": 11
+    },
+    {
+      "Type": "USStates",
+      "Value": "ID",
+      "Name": "Idaho",
+      "Description": null,
+      "DisplayOrder": 12
+    },
+    {
+      "Type": "USStates",
+      "Value": "IL",
+      "Name": "Illinois",
+      "Description": null,
+      "DisplayOrder": 13
+    },
+    {
+      "Type": "USStates",
+      "Value": "IN",
+      "Name": "Indiana",
+      "Description": null,
+      "DisplayOrder": 14
+    },
+    {
+      "Type": "USStates",
+      "Value": "IA",
+      "Name": "Iowa",
+      "Description": null,
+      "DisplayOrder": 15
+    },
+    {
+      "Type": "USStates",
+      "Value": "KS",
+      "Name": "Kansas",
+      "Description": null,
+      "DisplayOrder": 16
+    },
+    {
+      "Type": "USStates",
+      "Value": "KY",
+      "Name": "Kentucky",
+      "Description": null,
+      "DisplayOrder": 17
+    },
+    {
+      "Type": "USStates",
+      "Value": "LA",
+      "Name": "Louisiana",
+      "Description": null,
+      "DisplayOrder": 18
+    },
+    {
+      "Type": "USStates",
+      "Value": "ME",
+      "Name": "Maine",
+      "Description": null,
+      "DisplayOrder": 19
+    },
+    {
+      "Type": "USStates",
+      "Value": "MD",
+      "Name": "Maryland",
+      "Description": null,
+      "DisplayOrder": 20
+    },
+    {
+      "Type": "USStates",
+      "Value": "MA",
+      "Name": "Massachusetts",
+      "Description": null,
+      "DisplayOrder": 21
+    },
+    {
+      "Type": "USStates",
+      "Value": "MI",
+      "Name": "Michigan",
+      "Description": null,
+      "DisplayOrder": 22
+    },
+    {
+      "Type": "USStates",
+      "Value": "MN",
+      "Name": "Minnesota",
+      "Description": null,
+      "DisplayOrder": 23
+    },
+    {
+      "Type": "USStates",
+      "Value": "MS",
+      "Name": "Mississippi",
+      "Description": null,
+      "DisplayOrder": 24
+    },
+    {
+      "Type": "USStates",
+      "Value": "MO",
+      "Name": "Missouri",
+      "Description": null,
+      "DisplayOrder": 25
+    },
+    {
+      "Type": "USStates",
+      "Value": "MT",
+      "Name": "Montana",
+      "Description": null,
+      "DisplayOrder": 26
+    },
+    {
+      "Type": "USStates",
+      "Value": "NE",
+      "Name": "Nebraska",
+      "Description": null,
+      "DisplayOrder": 27
+    },
+    {
+      "Type": "USStates",
+      "Value": "NV",
+      "Name": "Nevada",
+      "Description": null,
+      "DisplayOrder": 28
+    },
+    {
+      "Type": "USStates",
+      "Value": "NH",
+      "Name": "New Hampshire",
+      "Description": null,
+      "DisplayOrder": 29
+    },
+    {
+      "Type": "USStates",
+      "Value": "NJ",
+      "Name": "New Jersey",
+      "Description": null,
+      "DisplayOrder": 30
+    },
+    {
+      "Type": "USStates",
+      "Value": "NM",
+      "Name": "New Mexico",
+      "Description": null,
+      "DisplayOrder": 31
+    },
+    {
+      "Type": "USStates",
+      "Value": "NY",
+      "Name": "New York",
+      "Description": null,
+      "DisplayOrder": 32
+    },
+    {
+      "Type": "USStates",
+      "Value": "NC",
+      "Name": "North Carolina",
+      "Description": null,
+      "DisplayOrder": 33
+    },
+    {
+      "Type": "USStates",
+      "Value": "ND",
+      "Name": "North Dakota",
+      "Description": null,
+      "DisplayOrder": 34
+    },
+    {
+      "Type": "USStates",
+      "Value": "OH",
+      "Name": "Ohio",
+      "Description": null,
+      "DisplayOrder": 35
+    },
+    {
+      "Type": "USStates",
+      "Value": "OK",
+      "Name": "Oklahoma",
+      "Description": null,
+      "DisplayOrder": 36
+    },
+    {
+      "Type": "USStates",
+      "Value": "OR",
+      "Name": "Oregon",
+      "Description": null,
+      "DisplayOrder": 37
+    },
+    {
+      "Type": "USStates",
+      "Value": "PA",
+      "Name": "Pennsylvania",
+      "Description": null,
+      "DisplayOrder": 38
+    },
+    {
+      "Type": "USStates",
+      "Value": "RI",
+      "Name": "Rhode Island",
+      "Description": null,
+      "DisplayOrder": 39
+    },
+    {
+      "Type": "USStates",
+      "Value": "SC",
+      "Name": "South Carolina",
+      "Description": null,
+      "DisplayOrder": 40
+    },
+    {
+      "Type": "USStates",
+      "Value": "SD",
+      "Name": "South Dakota",
+      "Description": null,
+      "DisplayOrder": 41
+    },
+    {
+      "Type": "USStates",
+      "Value": "TN",
+      "Name": "Tennessee",
+      "Description": null,
+      "DisplayOrder": 42
+    },
+    {
+      "Type": "USStates",
+      "Value": "TX",
+      "Name": "Texas",
+      "Description": null,
+      "DisplayOrder": 43
+    },
+    {
+      "Type": "USStates",
+      "Value": "UT",
+      "Name": "Utah",
+      "Description": null,
+      "DisplayOrder": 44
+    },
+    {
+      "Type": "USStates",
+      "Value": "VT",
+      "Name": "Vermont",
+      "Description": null,
+      "DisplayOrder": 45
+    },
+    {
+      "Type": "USStates",
+      "Value": "VA",
+      "Name": "Virginia",
+      "Description": null,
+      "DisplayOrder": 46
+    },
+    {
+      "Type": "USStates",
+      "Value": "WA",
+      "Name": "Washington",
+      "Description": null,
+      "DisplayOrder": 47
+    },
+    {
+      "Type": "USStates",
+      "Value": "WV",
+      "Name": "West Virginia",
+      "Description": null,
+      "DisplayOrder": 48
+    },
+    {
+      "Type": "USStates",
+      "Value": "WI",
+      "Name": "Wisconsin",
+      "Description": null,
+      "DisplayOrder": 49
+    },
+    {
+      "Type": "USStates",
+      "Value": "WY",
+      "Name": "Wyoming",
+      "Description": null,
+      "DisplayOrder": 50
+    },
+    {
+      "Type": "USStates",
+      "Value": "DC",
+      "Name": "Washington DC",
+      "Description": null,
+      "DisplayOrder": 51
+    },
+    {
+      "Type": "USStates",
+      "Value": "PR",
+      "Name": "Puerto Rico",
+      "Description": null,
+      "DisplayOrder": 52
+    },
+    {
+      "Type": "USStates",
+      "Value": "VI",
+      "Name": "US Virgin Islands",
+      "Description": null,
+      "DisplayOrder": 53
+    }
+]

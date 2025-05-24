@@ -1,0 +1,37 @@
+[
+    {
+      "Type": "CustomerInsuranceType",
+      "Value": "Comprehensive",
+      "Name": "Comprehensive",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "CustomerInsuranceType",
+      "Value": "Collision",
+      "Name": "Collision",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "CustomerInsuranceType",
+      "Value": "Comprehensive&Collision",
+      "Name": "Comprehensive & Collision",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "CustomerInsuranceType",
+      "Value": "StateLiability",
+      "Name": "State Liability",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "CustomerInsuranceType",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 5
+    }
+]

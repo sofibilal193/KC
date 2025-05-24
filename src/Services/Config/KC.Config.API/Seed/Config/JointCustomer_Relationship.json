@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "JointRelation",
+    "Value": "Spouse",
+    "Name": "Spouse",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Parent",
+    "Name": "Parent",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Child",
+    "Name": "Child",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Resides With",
+    "Name": "Resides With",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Co-Signer",
+    "Name": "Co-Signer",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Guarantor",
+    "Name": "Guarantor",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "JointRelation",
+    "Value": "Other",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 99
+  }
+]

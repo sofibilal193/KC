@@ -1,0 +1,165 @@
+{
+	"IsTaxed": true,
+	"Products": [
+		{
+			"Order": 1,
+			"CategoryCode": "ACC",
+			"CategoryName": "Accessory Coverages",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 2,
+			"CategoryCode": "AP",
+			"CategoryName": "Appearance Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 3,
+			"CategoryCode": "BAT",
+			"CategoryName": "Battery Protection",
+			"IsTaxed": true,
+			"TaxRate": 7.25,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 4,
+			"CategoryCode": "BND",
+			"CategoryName": "Bundled Product",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 5,
+			"CategoryCode": "CD",
+			"CategoryName": "Credit Disability Insurance",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 6,
+			"CategoryCode": "CL",
+			"CategoryName": "Credit Life Insurance",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 7,
+			"CategoryCode": "GAP",
+			"CategoryName": "GAP",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 8,
+			"CategoryCode": "KEY",
+			"CategoryName": "Key Replacement",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+        {
+			"Order": 9,
+			"CategoryCode": "WT",
+			"CategoryName": "Lease Wear & Tear",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 10,
+			"CategoryCode": "LTW",
+			"CategoryName": "Lifetime Warranty",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 11,
+			"CategoryCode": "LW",
+			"CategoryName": "Limited Warranty",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 12,
+			"CategoryCode": "PPM",
+			"CategoryName": "Pre-Paid Maintenance",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 13,
+			"CategoryCode": "RA",
+			"CategoryName": "Roadside Assistance",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 14,
+			"CategoryCode": "TP",
+			"CategoryName": "Theft Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 15,
+			"CategoryCode": "TLP",
+			"CategoryName": "Total Loss Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 16,
+			"CategoryCode": "TW",
+			"CategoryName": "Tire & Wheel Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 17,
+			"CategoryCode": "VP",
+			"CategoryName": "Value Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 18,
+			"CategoryCode": "VSC",
+			"CategoryName": "Vehicle Service Contract",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 19,
+			"CategoryCode": "WIN",
+			"CategoryName": "Windshield Protection",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		},
+		{
+			"Order": 20,
+			"CategoryCode": "OTHER",
+			"CategoryName": "Other",
+			"IsTaxed": true,
+			"TaxRate": 0,
+			"TaxJurisdiction": 0
+		}
+	]
+}

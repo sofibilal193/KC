@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "CreditApplicationType",
+    "Value": "0",
+    "Name": "Individual",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "CreditApplicationType",
+    "Value": "3",
+    "Name": "Individual With Separate Income",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "CreditApplicationType",
+    "Value": "1",
+    "Name": "Joint",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "CreditApplicationType",
+    "Value": "2",
+    "Name": "Business",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

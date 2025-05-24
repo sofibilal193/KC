@@ -1,0 +1,26 @@
+[
+  {
+    "Type": 1,
+    "DealType": null,
+    "Name": "Documentation Fee",
+    "Description": "Fee charged for preparation of all the documents and forms.",
+    "Amount": 0.0,
+    "DMSMapping": "DocFees"
+  },
+  {
+    "Type": 2,
+    "DealType": null,
+    "Name": "Title Fee",
+    "Description": "Fee paid to public officials for titling the unit.",
+    "Amount": 0.0,
+    "DMSMapping": null
+  },
+  {
+    "Type": 2,
+    "DealType": null,
+    "Name": "License Fee",
+    "Description": "Fee paid to public officials for licensing of the unit.",
+    "Amount": 0.0,
+    "DMSMapping": "LicFees"
+  }
+]

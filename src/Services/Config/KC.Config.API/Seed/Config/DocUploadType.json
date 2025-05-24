@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "DocUploadType",
+    "Value": "Contract",
+    "Name": "Contract",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Credit App",
+    "Name": "Credit App",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Menu",
+    "Name": "Menu",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Photo ID",
+    "Name": "Photo ID",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Proof of Income",
+    "Name": "Proof of Income",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Proof of Insurance",
+    "Name": "Proof of Insurance",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Proof of Residence",
+    "Name": "Proof of Residence",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Protection Product Contract",
+    "Name": "Protection Product Contract",
+    "Description": null,
+    "DisplayOrder": 8
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Quote",
+    "Name": "Quote",
+    "Description": null,
+    "DisplayOrder": 9
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Trade-In Payoff",
+    "Name": "Trade-In Payoff",
+    "Description": null,
+    "DisplayOrder": 10
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Trade-In Registration",
+    "Name": "Trade-In Registration",
+    "Description": null,
+    "DisplayOrder": 11
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Trade-In Title",
+    "Name": "Trade-In Title",
+    "Description": null,
+    "DisplayOrder": 12
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "We Owe/You Owe",
+    "Name": "We Owe/You Owe",
+    "Description": null,
+    "DisplayOrder": 13
+  },
+  {
+    "Type": "DocUploadType",
+    "Value": "Other",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 99
+  }
+]

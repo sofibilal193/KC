@@ -1,0 +1,11 @@
+[
+  {
+    "Category": "defaults-user-notification",
+    "FieldType": "Json",
+    "Name": "UserNotificationsConfig",
+    "Description": "This setting contains the notifications configuration for the user.",
+    "DisplayOrder": 1,
+    "IsUserVisible": false,
+    "DefaultValue": "Seed/Notifications/UserConfiguration.json"
+  }
+]

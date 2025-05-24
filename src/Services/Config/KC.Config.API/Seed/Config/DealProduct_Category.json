@@ -1,0 +1,163 @@
+[
+    {
+        "Type": "DealProductCategory",
+        "Value": "ACC",
+        "Name": "Accessory Coverage",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "AP",
+        "Name": "Appearance Protection",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "BAT",
+        "Name": "Battery Protection",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "BND",
+        "Name": "Bundled Product",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "CD",
+        "Name": "Credit Disability Insurance",
+        "Description": null,
+        "DisplayOrder": 5
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "CL",
+        "Name": "Credit Life Insurance",
+        "Description": null,
+        "DisplayOrder": 6
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "D",
+        "Name": "Dent Protection",
+        "Description": null,
+        "DisplayOrder": 7
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "EM",
+        "Name": "Emergency Alert",
+        "Description": null,
+        "DisplayOrder": 8
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "GAP",
+        "Name": "GAP",
+        "Description": null,
+        "DisplayOrder": 9
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "KEY",
+        "Name": "Key Replacement",
+        "Description": null,
+        "DisplayOrder": 10
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "LWT",
+        "Name": "Lease Wear & Tear",
+        "Description": null,
+        "DisplayOrder": 11
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "LTW",
+        "Name": "Lifetime Warranty",
+        "Description": null,
+        "DisplayOrder": 12
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "LW",
+        "Name": "Limited Warranty",
+        "Description": null,
+        "DisplayOrder": 13
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "PP",
+        "Name": "Paint Protection",
+        "Description": null,
+        "DisplayOrder": 14
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "PPM",
+        "Name": "Pre-Paid Maintenance",
+        "Description": null,
+        "DisplayOrder": 15
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "RA",
+        "Name": "Roadside Assistance",
+        "Description": null,
+        "DisplayOrder": 16
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "TP",
+        "Name": "Theft Protection",
+        "Description": null,
+        "DisplayOrder": 17
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "TLP",
+        "Name": "Total Loss Protection",
+        "Description": null,
+        "DisplayOrder": 18
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "TW",
+        "Name": "Tire & Wheel Protection",
+        "Description": null,
+        "DisplayOrder": 19
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "VP",
+        "Name": "Value Protection",
+        "Description": null,
+        "DisplayOrder": 20
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "VSC",
+        "Name": "Vehicle Service Contract",
+        "Description": null,
+        "DisplayOrder": 21
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "WIN",
+        "Name": "Windshield Protection",
+        "Description": null,
+        "DisplayOrder": 22
+    },
+    {
+        "Type": "DealProductCategory",
+        "Value": "OTHER",
+        "Name": "Other",
+        "Description": null,
+        "DisplayOrder": 99
+    }
+]

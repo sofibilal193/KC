@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DealStage_Closing",
+    "Value": "9",
+    "Name": "Pending",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealStage_Closing",
+    "Value": "10",
+    "Name": "Generated",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DealStage_Closing",
+    "Value": "11",
+    "Name": "Signed",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DealStage_Closing",
+    "Value": "99",
+    "Name": "Dead",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

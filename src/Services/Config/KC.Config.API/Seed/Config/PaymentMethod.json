@@ -1,0 +1,58 @@
+[
+    {
+      "Type": "PaymentMethod",
+      "Value": "1",
+      "Name": "Cash",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "2",
+      "Name": "Check",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "3",
+      "Name": "Credit Card",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "4",
+      "Name": "Gift Card",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "5",
+      "Name": "OEM Coupon",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "6",
+      "Name": "OEM Credit Card",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "7",
+      "Name": "Paypal",
+      "Description": null,
+      "DisplayOrder": 7
+    },
+    {
+      "Type": "PaymentMethod",
+      "Value": "8",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 8
+    }
+  ]

@@ -6,7 +6,7 @@ using KC.Infrastructure.Common.AppConfig;
 using KC.Persistence.Common;
 using Microsoft.ApplicationInsights.Extensibility;
 
-namespace ODL.Identity.API
+namespace KC.Identity.API
 {
     public class Startup
     {

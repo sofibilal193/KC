@@ -1,0 +1,32 @@
+[
+    {
+        "Order": 1,
+        "Name": "Complete Protection",
+        "IsEnabled": true,
+        "IsRecommended": true
+    },
+    {
+        "Order": 2,
+        "Name": "Standard Protection",
+        "IsEnabled": true,
+        "IsRecommended": false
+    },
+    {
+        "Order": 3,
+        "Name": "Value Protection",
+        "IsEnabled": true,
+        "IsRecommended": false
+    },
+    {
+        "Order": 4,
+        "Name": "Budget Protection",
+        "IsEnabled": true,
+        "IsRecommended": false
+    },
+    {
+        "Order": 5,
+        "Name": "Economy Protection",
+        "IsEnabled": true,
+        "IsRecommended": false
+    }
+  ]

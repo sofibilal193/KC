@@ -1,0 +1,681 @@
+[
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "NumericWhole",
+    "Name": "SessionTimeout",
+    "Description": "This setting controls the session timeout (in minutes) for all users.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": true,
+    "MinValue": 15,
+    "MaxValue": 180,
+    "DefaultValue": "60"
+  },
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "Checkbox",
+    "Name": "EnableMFA",
+    "Description": "This setting controls whether Multi-Factor Authentication (MFA) is enabled for all users or not. WE HIGHLY RECOMMEND YOU DO NOT DISABLE MFA. LEGAL & COMPLIANCE REQUIREMENTS REQUIRE THE USE OF MFA TO PROTECT CUSTOMER DATA. IF YOU CHOOSE TO DISABLE THIS SETTING, YOU AGREE TO BE RESPONSIBLE FOR ALL THE LIABILITY ACCORDINGLY.",
+    "DisplayOrder": 2,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "DropDown",
+    "Name": "MFATimeout",
+    "Description": "This setting controls the amount of time (in days) after which a user will be re-prompted for MFA.",
+    "DisplayOrder": 3,
+    "IsOrgVisible": true,
+    "DefaultValue": "3",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "1",
+        "Text": "1 Day",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "2",
+        "Text": "2 Days",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "3",
+        "Text": "3 Days",
+        "DisplayOrder": 3
+      },
+      {
+        "Value": "4",
+        "Text": "4 Days",
+        "DisplayOrder": 4
+      },
+      {
+        "Value": "5",
+        "Text": "5 Days",
+        "DisplayOrder": 5
+      },
+      {
+        "Value": "6",
+        "Text": "6 Days",
+        "DisplayOrder": 6
+      },
+      {
+        "Value": "7",
+        "Text": "7 Days",
+        "DisplayOrder": 7
+      }
+    ]
+  },
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "TextArea",
+    "Name": "ApprovedEmailDomains",
+    "Description": "This setting controls which email address domains can be used for user's email addresses. This can be used an additional layer of security to prevent users from being added with an email address that is not in this approved list. Please enter each domain on it's own line.",
+    "DisplayOrder": 4,
+    "IsOrgVisible": true,
+    "MinValue": 0
+  },
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "File",
+    "Name": "Logo",
+    "Description": "This setting controls the logo that appears for your organization on the ODL portal.",
+    "DisplayOrder": 5,
+    "IsOrgVisible": true,
+    "MinValue": 0,
+    "MaxValue": 100,
+    "FieldValues": [
+      {
+        "Value": "png"
+      },
+      {
+        "Value": "jpg"
+      },
+      {
+        "Value": "jpeg"
+      },
+      {
+        "Value": "gif"
+      },
+      {
+        "Value": "svg"
+      }
+    ]
+  },
+  {
+    "OrgType": null,
+    "Category": "defaults-general",
+    "FieldType": "DropDown",
+    "Name": "PIIDataRetentionThreshold",
+    "Description": "This setting controls how long sensitive customer data fields (SSN, DOB, DL # etc.) are stored in KC.",
+    "DisplayOrder": 6,
+    "IsOrgVisible": true,
+    "DefaultValue": "90",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "30",
+        "Text": "30 Days",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "60",
+        "Text": "60 Days",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "90",
+        "Text": "90 Days",
+        "DisplayOrder": 3
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "DropDownMulti",
+    "Name": "UnitTypes",
+    "Description": "This setting controls which unit types appear for your organization on the ODL Portal.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": true,
+    "DefaultValue": "Powersports,Trailer,Marine,RV",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "Powersports",
+        "Text": "Powersports",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "Trailer",
+        "Text": "Trailer",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "Marine",
+        "Text": "Marine",
+        "DisplayOrder": 3
+      },
+      {
+        "Value": "RV",
+        "Text": "RV",
+        "DisplayOrder": 4
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "NumericDecimal",
+    "Name": "InterestRate",
+    "Description": "This setting controls the default interest rate when new deals are created.",
+    "DisplayOrder": 2,
+    "IsOrgVisible": true,
+    "DefaultValue": "7.99",
+    "MinValue": 0,
+    "MaxValue": 50
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "NumericWhole",
+    "Name": "DaysToFirstPayment",
+    "Description": "This setting controls the default days to first payment when new deals are created.",
+    "DisplayOrder": 3,
+    "IsOrgVisible": true,
+    "DefaultValue": "30",
+    "MinValue": 30,
+    "MaxValue": 90
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "NumericWhole",
+    "Name": "Term",
+    "Description": "This setting controls the default term when new deals are created.",
+    "DisplayOrder": 4,
+    "IsOrgVisible": true,
+    "DefaultValue": "60",
+    "MinValue": 12,
+    "MaxValue": 999
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "DropDown",
+    "Name": "TermFrequency",
+    "Description": "This setting controls the default term frequency when new deals are created.",
+    "DisplayOrder": 5,
+    "IsOrgVisible": true,
+    "DefaultValue": "0",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "0",
+        "Text": "Monthly",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "1",
+        "Text": "Semi-Monthly",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "2",
+        "Text": "Bi-Weekly",
+        "DisplayOrder": 3
+      },
+      {
+        "Value": "3",
+        "Text": "Weekly",
+        "DisplayOrder": 4
+      },
+      {
+        "Value": "4",
+        "Text": "Annually",
+        "DisplayOrder": 5
+      },
+      {
+        "Value": "5",
+        "Text": "Daily",
+        "DisplayOrder": 6
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "DropDown",
+    "Name": "DefaultUnitType",
+    "Description": "This setting controls the default unit type for unit when new deals are created or updated.",
+    "DisplayOrder": 6,
+    "IsOrgVisible": true,
+    "DefaultValue": null,
+    "MinValue": 0,
+    "FieldValues": [
+      {
+        "Value": "Powersports",
+        "Text": "Powersports",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "Trailer",
+        "Text": "Trailer",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "Marine",
+        "Text": "Marine",
+        "DisplayOrder": 3
+      },
+      {
+        "Value": "RV",
+        "Text": "RV",
+        "DisplayOrder": 4
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-deals",
+    "FieldType": "DropDown",
+    "Name": "Default Deposit Type",
+    "Description": "This setting controls the default deposit type in quotes/deals.",
+    "DisplayOrder": 7,
+    "IsOrgVisible": true,
+    "DefaultValue": "0",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "0",
+        "Text": "Non-Refundable",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "1",
+        "Text": "Refundable",
+        "DisplayOrder": 1
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-quotes",
+    "FieldType": "NumericWhole",
+    "Name": "LinkExpiration",
+    "Description": "This setting controls the time interval after which the quote link sent to the Customer expires in hours.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": true,
+    "DefaultValue": "24",
+    "MinValue": 8,
+    "MaxValue": 72
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "NumericWhole",
+    "Name": "LinkExpiration",
+    "Description": "This setting controls the time interval after which the credit application link sent to the Customer expires in hours.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": true,
+    "DefaultValue": "12",
+    "MinValue": 8,
+    "MaxValue": 72
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "TextArea",
+    "Name": "LenderList",
+    "Description": "This setting controls the names of the lenders that will appear in the disclosures on the credit application to whom the application could be submitted to.",
+    "DisplayOrder": 2,
+    "IsOrgVisible": true,
+    "MinValue": 0
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "TextArea",
+    "Name": "AllowedDomains",
+    "Description": "This setting controls the domains that are allowed to iframe the credit application.",
+    "DisplayOrder": 3,
+    "IsOrgVisible": true,
+    "MinValue": 0
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Url",
+    "Name": "PrivacyPolicy",
+    "Description": "This setting controls the link to the Privacy Policy that appears on the credit application.",
+    "DisplayOrder": 4,
+    "IsOrgVisible": true,
+    "MinValue": 0,
+    "MaxValue": 255
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Url",
+    "Name": "TermsOfUse",
+    "Description": "This setting controls the link to the Terms of Use that appears on the credit application.",
+    "DisplayOrder": 5,
+    "IsOrgVisible": true,
+    "MinValue": 0,
+    "MaxValue": 255
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "DropDown",
+    "Name": "DefaultCreditBureau",
+    "Description": "This setting controls the default credit bureau report retrieved for your customers.",
+    "DisplayOrder": 6,
+    "IsOrgVisible": true,
+    "DefaultValue": "0",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "0",
+        "Text": "Equifax",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "1",
+        "Text": "Experian",
+        "DisplayOrder": 2
+      },
+      {
+        "Value": "2",
+        "Text": "Transunion",
+        "DisplayOrder": 3
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Checkbox",
+    "Name": "AutoPullCreditReport",
+    "Description": "This setting controls whether the system automatically attempts to retrieve a credit report when a credit app is submitted.",
+    "DisplayOrder": 7,
+    "DefaultValue": "false",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Checkbox",
+    "Name": "EnablePreQualify",
+    "Description": "This settings controls whether the pre-qualify soft pull disclosure appears on the Lead forms.",
+    "DisplayOrder": 8,
+    "DefaultValue": "false",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Checkbox",
+    "Name": "AutoPullPreQualifyReport",
+    "Description": "This setting controls whether a pre-qualify report is automatically retrieved if consent is received from the customer on the Lead forms.",
+    "DisplayOrder": 9,
+    "DefaultValue": "false",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Checkbox",
+    "Name": "CaptureInsuranceInfo",
+    "Description": "This setting controls whether the credit application form should have optional fields for insurance information.",
+    "DisplayOrder": 10,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "NumericWhole",
+    "Name": "NumberOfReferences",
+    "Description": "This setting controls the number of references to capture on the credit application.",
+    "DisplayOrder": 11,
+    "DefaultValue": "0",
+    "MinValue": 0,
+    "MaxValue": 6,
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-creditapp",
+    "FieldType": "Checkbox",
+    "Name": "RequireReferences",
+    "Description": "This setting controls whether the number of references specified above are required to submit the credit application. If unchecked, the reference fields will still appear based on the # of references configured above, but they will be optional.",
+    "DisplayOrder": 12,
+    "DefaultValue": "false",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "DropDown",
+    "Name": "LightspeedIntegrationType",
+    "Description": "This setting controls whether the FULL or LIGHT (open deals only) integration is enabled. This setting impacts integration costs and fees.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": true,
+    "DefaultValue": "FULL",
+    "MinValue": 1,
+    "FieldValues": [
+      {
+        "Value": "FULL",
+        "Text": "FULL",
+        "DisplayOrder": 1
+      },
+      {
+        "Value": "LIGHT",
+        "Text": "LIGHT",
+        "DisplayOrder": 2
+      }
+    ]
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "NumericWhole",
+    "Name": "LightspeedBulkImportPeriod",
+    "Description": "This setting controls the number of days back worth of data that should be bulk imported.",
+    "DefaultValue": "365",
+    "DisplayOrder": 2,
+    "IsOrgVisible": true,
+    "MinValue": 60,
+    "MaxValue": 999
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "NumericWhole",
+    "Name": "LightspeedBulkImportTTL",
+    "Description": "This setting controls the number of days we will retain the records since they were last modified.",
+    "DefaultValue": "365",
+    "DisplayOrder": 3,
+    "IsOrgVisible": true,
+    "MinValue": 90,
+    "MaxValue": 999
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "Text",
+    "Name": "LightspeedStoreName",
+    "Description": "This setting controls which store customers get imported for when a dealer has multiple locations.",
+    "DefaultValue": null,
+    "DisplayOrder": 4,
+    "IsOrgVisible": false,
+    "MinValue": 0,
+    "MaxValue": 100
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "Checkbox",
+    "Name": "lightspeed-EnableLeadSync",
+    "Description": "This setting controls whether leads in Lightspeed are synced with KC.",
+    "DisplayOrder": 5,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "Json",
+    "Name": "LightspeedUnitTypeMappings",
+    "Description": "This setting controls how unit types are mapped from Lightspeed DMS.",
+    "DefaultValue": "Seed/UnitTypes/LightspeedUnitTypes.json",
+    "DisplayOrder": 9,
+    "IsOrgVisible": false,
+    "MinValue": 1
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-lightspeed",
+    "FieldType": "Json",
+    "Name": "LightspeedProductMappings",
+    "Description": "This setting controls the mapping of products sent to Lightspeed.",
+    "DisplayOrder": 10,
+    "IsOrgVisible": false
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider-dp360",
+    "FieldType": "Checkbox",
+    "Name": "dp360-EnableLeadSync",
+    "Description": "This setting controls whether leads in DP360 are synced with KC.",
+    "DisplayOrder": 1,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Checkbox",
+    "Name": "ShowProductCost",
+    "Description": "This setting controls whether the retail customer price of the product shows for each product on the menu when expanded to see the product details.",
+    "DisplayOrder": 1,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Checkbox",
+    "Name": "ShowPayments",
+    "Description": "This setting controls whether the payment shows for each product on the menu when expanded to see the product details. NOTE: this only applies to finance deals.",
+    "DisplayOrder": 2,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Checkbox",
+    "Name": "MenuAcceptanceEmail",
+    "Description": "This setting controls whether a confirmation email is sent to the customer once the menu acceptance process is complete.",
+    "DisplayOrder": 3,
+    "DefaultValue": "true",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Json",
+    "Name": "MenuColumns",
+    "Description": "This setting controls the configuration of the columns on the menu.",
+    "DisplayOrder": 4,
+    "IsOrgVisible": false,
+    "DefaultValue": "Seed/Menu/MenuColumns.json"
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Checkbox",
+    "Name": "ItemizePurchasePrice",
+    "Description": "This setting controls whether the purchase price is itemized or not on the menu presentation and confirmation screens.",
+    "DisplayOrder": 5,
+    "DefaultValue": "false",
+    "IsOrgVisible": true
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-fees",
+    "FieldType": "Json",
+    "Name": "FeesConfiguration",
+    "Description": "This setting controls the configuration of fees.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": false,
+    "DefaultValue": "Seed/Fees/FeesConfiguration.json"
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-taxprofile",
+    "FieldType": "Json",
+    "Name": "TaxProfileConfig",
+    "Description": "This setting contains the tax profile configuration for the org.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": false,
+    "DefaultValue": null
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-org-notification",
+    "FieldType": "Json",
+    "Name": "OrgNotificationsConfig",
+    "Description": "This setting contains the notifications configuration for the org.",
+    "DisplayOrder": 9,
+    "IsOrgVisible": false,
+    "DefaultValue": "Seed/Notifications/OrgConfiguration.json"
+  },
+  {
+    "OrgType": 1,
+    "Category": "provider",
+    "FieldType": "Text",
+    "Name": "PENDealerId",
+    "Description": "This setting contains the org's DealerId for PEN.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": false,
+    "DefaultValue": null
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-checklist",
+    "FieldType": "Json",
+    "Name": "CheckListConfig",
+    "Description": "This setting contains the checklist configuration for the org.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": false,
+    "DefaultValue": null
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-checklist",
+    "FieldType": "Json",
+    "Name": "CheckListForm",
+    "Description": "This setting contains the checklist form for the org.",
+    "DisplayOrder": 1,
+    "IsOrgVisible": false,
+    "DefaultValue": null
+  },
+  {
+    "OrgType": 1,
+    "Category": "defaults-menu",
+    "FieldType": "Json",
+    "Name": "MenuColumnConfig",
+    "Description": "This setting controls the configuration of the columns on the menu.",
+    "DisplayOrder": 5,
+    "IsOrgVisible": false,
+    "DefaultValue": "Seed/Menu/MenuColumnConfig.json"
+  }
+]

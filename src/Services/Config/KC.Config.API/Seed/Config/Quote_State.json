@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "QuoteState",
+    "Value": "New",
+    "Name": "New",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "Active",
+    "Name": "Active",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "Inactive",
+    "Name": "Inactive",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "Blocked",
+    "Name": "Blocked",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "CustomerAccepted",
+    "Name": "Accepted",
+    "Description": null,
+    "DisplayOrder": 10
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "SMPendingApproval",
+    "Name": "Pending Approval",
+    "Description": null,
+    "DisplayOrder": 11
+  },
+  {
+    "Type": "QuoteState",
+    "Value": "SMApproved",
+    "Name": "Approved",
+    "Description": null,
+    "DisplayOrder": 12
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DealStage_BackOffice",
+    "Value": "12",
+    "Name": "Funding",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealStage_BackOffice",
+    "Value": "13",
+    "Name": "Funded",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DealStage_BackOffice",
+    "Value": "14",
+    "Name": "Booked",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DealStage_BackOffice",
+    "Value": "99",
+    "Name": "Dead",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "Type": "HousingStatus",
+        "Value": "1",
+        "Name": "Rent",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "HousingStatus",
+        "Value": "0",
+        "Name": "Own",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "HousingStatus",
+        "Value": "2",
+        "Name": "Family",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "HousingStatus",
+        "Value": "3",
+        "Name": "Other",
+        "Description": null,
+        "DisplayOrder": 99
+    }
+]

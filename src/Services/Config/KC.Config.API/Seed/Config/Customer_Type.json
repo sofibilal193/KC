@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "CustomerType",
+    "Value": "0",
+    "Name": "Individual",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "CustomerType",
+    "Value": "1",
+    "Name": "Joint",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "CustomerType",
+    "Value": "2",
+    "Name": "Business",
+    "Description": null,
+    "DisplayOrder": 3
+  }
+]

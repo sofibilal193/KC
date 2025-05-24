@@ -1,0 +1,16 @@
+[
+    {
+      "Type": "DepositType",
+      "Name": "Refundable",
+      "Value": "1",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "DepositType",
+      "Name": "Non-Refundable",
+      "Value": "0",
+      "Description": null,
+      "DisplayOrder": 2
+    }
+  ]

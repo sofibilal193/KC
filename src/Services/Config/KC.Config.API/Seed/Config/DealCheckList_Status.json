@@ -1,0 +1,16 @@
+[
+    {
+      "Type": "CheckListStatus",
+      "Name": "Incomplete",
+      "Value": "0",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "CheckListStatus",
+      "Name": "Completed",
+      "Value": "1",
+      "Description": null,
+      "DisplayOrder": 2
+    }
+  ]

@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "DealType",
+    "Value": "0",
+    "Name": "Finance",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealType",
+    "Value": "1",
+    "Name": "Cash",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

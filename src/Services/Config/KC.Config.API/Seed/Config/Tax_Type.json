@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "TaxType",
+    "Name": "Sales Tax - Auto",
+    "Value": "0",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "TaxType",
+    "Name": "Sales Tax - General",
+    "Value": "2",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "TaxType",
+    "Name": "Use Tax - Auto",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "TaxType",
+    "Name": "Use Tax - General",
+    "Value": "3",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

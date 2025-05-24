@@ -1,0 +1,39 @@
+[
+  {
+    "Category": "Security",
+    "Description": "Notifications related to security events.",
+    "LastUpdatedBy": "",
+    "LastUpdatedOn": "",
+    "Notifications": [
+      {
+        "Name": "User Password Changed",
+        "Description": "This notification will be generated when the password for your user account is changed.",
+        "InApp": true,
+        "Email": true,
+        "SMS": true
+      },
+      {
+        "Name": "User Profile Updated",
+        "Description": "This notification will be generated when your user profile information is updated.",
+        "InApp": true,
+        "Email": false,
+        "SMS": false
+      }
+    ]
+  },
+  {
+    "Category": "Notes",
+    "Description": "Notifications related to notes and comments.",
+    "LastUpdatedBy": "",
+    "LastUpdatedOn": "",
+    "Notifications": [
+      {
+        "Name": "New Mention",
+        "Description": "This notification will be generated when you are mentioned in a note or comment.",
+        "InApp": true,
+        "Email": true,
+        "SMS": true
+      }
+    ]
+  }
+]

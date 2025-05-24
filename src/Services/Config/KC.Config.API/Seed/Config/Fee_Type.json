@@ -1,0 +1,30 @@
+[
+    {
+      "Type": "FeeType",
+      "Value": "1",
+      "Name": "Doc",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "FeeType",
+      "Value": "2",
+      "Name": "Public Official",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "FeeType",
+      "Value": "3",
+      "Name": "Dealer",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "FeeType",
+      "Value": "99",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 99
+    }
+]

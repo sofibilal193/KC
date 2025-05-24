@@ -1,0 +1,57 @@
+[
+    {
+        "Category": "Security",
+        "Description": "Notifications related to security events.",
+        "LastUpdatedBy": "",
+        "LastUpdatedOn": "",
+        "Notifications": [
+            {
+                "Name": "User Password Changed",
+                "Description": "This notification will be generated when a user's password is changed for your organization.",
+                "InApp": true,
+                "Email": true,
+                "EmailAddresses": [
+                    "john@doe.com",
+                    "mary@doe.com"
+                ],
+                "SMS": true,
+                "SMSAddresses": [
+                    "(225) 819-0000",
+                    "(225) 819-0001"
+                ]
+            },
+            {
+                "Name": "New User Added",
+                "Description": "This notification will be generated when a new user is added for your organization.",
+                "InApp": true,
+                "Email": false,
+                "EmailAddresses": [],
+                "SMS": false,
+                "SMSAddresses": []
+            }
+        ]
+    },
+    {
+        "Category": "Credit Apps",
+        "Description": "Notifications related to credit applications.",
+        "LastUpdatedBy": "",
+        "LastUpdatedOn": "",
+        "Notifications": [
+            {
+                "Name": "New Credit App Submitted",
+                "Description": "This notification will be generated when a new credit application is submitted.",
+                "InApp": true,
+                "Email": true,
+                "EmailAddresses": [
+                    "john@doe.com",
+                    "mary@doe.com"
+                ],
+                "SMS": true,
+                "SMSAddresses": [
+                    "(225) 819-0000",
+                    "(225) 819-0001"
+                ]
+            }
+        ]
+    }
+]

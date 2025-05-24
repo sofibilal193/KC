@@ -1,0 +1,44 @@
+[
+    {
+      "Type": "TermFrequency",
+      "Value": "0",
+      "Name": "Monthly",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+        "Type": "TermFrequency",
+        "Value": "1",
+        "Name": "Semi-Monthly",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "TermFrequency",
+        "Value": "2",
+        "Name": "Bi-Weekly",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "TermFrequency",
+        "Value": "3",
+        "Name": "Weekly",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "TermFrequency",
+        "Value": "4",
+        "Name": "Annually",
+        "Description": null,
+        "DisplayOrder": 5
+    },
+    {
+        "Type": "TermFrequency",
+        "Value": "5",
+        "Name": "Daily",
+        "Description": null,
+        "DisplayOrder": 6
+    }
+]

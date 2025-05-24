@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "UnitOptionType",
+    "Name": "Part/Accessory",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "UnitOptionType",
+    "Name": "Labor",
+    "Value": "2",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

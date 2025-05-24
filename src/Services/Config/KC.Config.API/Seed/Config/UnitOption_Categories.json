@@ -1,0 +1,171 @@
+[
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Bumpers",
+      "Name": "Bumpers",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Chassis",
+      "Name": "Chassis",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Cleaners & Polishers",
+      "Name": "Cleaners & Polishers",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Clothing",
+      "Name": "Clothing",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Covers & Bags",
+      "Name": "Covers & Bags",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Electrical",
+      "Name": "Electrical",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Electronics",
+      "Name": "Electronics",
+      "Description": null,
+      "DisplayOrder": 7
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Engine",
+      "Name": "Engine",
+      "Description": null,
+      "DisplayOrder": 8
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Exhausts",
+      "Name": "Exhausts",
+      "Description": null,
+      "DisplayOrder": 9
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Machinery",
+      "Name": "Machinery",
+      "Description": null,
+      "DisplayOrder": 10
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Mirrors",
+      "Name": "Mirrors",
+      "Description": null,
+      "DisplayOrder": 11
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Mufflers",
+      "Name": "Mufflers",
+      "Description": null,
+      "DisplayOrder": 12
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Navigation",
+      "Name": "Navigation",
+      "Description": null,
+      "DisplayOrder": 13
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Oils & Chemicals",
+      "Name": "Oils & Chemicals",
+      "Description": null,
+      "DisplayOrder": 14
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Propeller",
+      "Name": "Propeller",
+      "Description": null,
+      "DisplayOrder": 15
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Riding Gear",
+      "Name": "Riding Gear",
+      "Description": null,
+      "DisplayOrder": 16
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Roof",
+      "Name": "Roof",
+      "Description": null,
+      "DisplayOrder": 17
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Seats",
+      "Name": "Seats",
+      "Description": null,
+      "DisplayOrder": 18
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Ski",
+      "Name": "Ski",
+      "Description": null,
+      "DisplayOrder": 19
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Storage",
+      "Name": "Storage",
+      "Description": null,
+      "DisplayOrder": 20
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Suspension",
+      "Name": "Suspension",
+      "Description": null,
+      "DisplayOrder": 21
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Tank",
+      "Name": "Tank",
+      "Description": null,
+      "DisplayOrder": 22
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Wheels",
+      "Name": "Wheels",
+      "Description": null,
+      "DisplayOrder": 23
+    },
+    {
+      "Type": "UnitOptionCategory",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 99
+    }
+
+]

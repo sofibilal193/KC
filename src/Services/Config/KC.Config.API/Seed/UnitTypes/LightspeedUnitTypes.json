@@ -1,0 +1,63 @@
+[
+  {
+    "UnitType": "Default",
+    "Type": "Powersports"
+  },
+  {
+    "UnitType": "ATV",
+    "Type": "Powersports",
+    "SubType": "ATV"
+  },
+  {
+    "UnitType": "Boat",
+    "Type": "Marine",
+    "SubType": "Boat"
+  },
+  {
+    "UnitType": "Dirt Bike",
+    "Type": "Powersports",
+    "SubType": "Motorcycles - Off Road",
+    "Category": "Dirt Bikes"
+  },
+  {
+    "UnitType": "Engine",
+    "Type": "Marine",
+    "SubType": "Engine"
+  },
+  {
+    "UnitType": "Motorcycle",
+    "Type": "Powersports",
+    "SubType": "Motorcycles - On Road"
+  },
+  {
+    "UnitType": "Scooter",
+    "Type": "Powersports",
+    "SubType": "Scooter/Moped",
+    "Category": "Scooter"
+  },
+  {
+    "UnitType": "Slingshot",
+    "Type": "Powersports",
+    "SubType": "Motorcycles - 3 Wheel",
+    "Category": "3 Wheel Cycle"
+  },
+  {
+    "UnitType": "Snowmobile",
+    "Type": "Powersports",
+    "SubType": "Snowmobile"
+  },
+  {
+    "UnitType": "Trailer",
+    "Type": "Trailer"
+  },
+  {
+    "UnitType": "UTV",
+    "Type": "Powersports",
+    "SubType": "UTV/Side-by-Side"
+  },
+  {
+    "UnitType": "Watercraft",
+    "Type": "Powersports",
+    "SubType": "Personal Watercraft"
+  }
+]

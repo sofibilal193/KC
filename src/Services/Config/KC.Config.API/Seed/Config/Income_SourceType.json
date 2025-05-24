@@ -1,0 +1,135 @@
+[
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Alimony/Spousal Support",
+        "Name": "Alimony/Spousal Support",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Child Support",
+        "Name": "Child Support",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Cost of Living Allowance (COLA)",
+        "Name": "Cost of Living Allowance (COLA)",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Dependent Children Aid",
+        "Name": "Dependent Children Aid",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Disability",
+        "Name": "Disability",
+        "Description": null,
+        "DisplayOrder": 5
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Employment",
+        "Name": "Employment",
+        "Description": null,
+        "DisplayOrder": 6
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Family Subsistence Supplemental Allowance (FSSA)",
+        "Name": "Family Subsistence Supplemental Allowance (FSSA)",
+        "Description": null,
+        "DisplayOrder": 7
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Housing Allowances",
+        "Name": "Housing Allowances",
+        "Description": null,
+        "DisplayOrder": 8
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Investment",
+        "Name": "Investment",
+        "Description": null,
+        "DisplayOrder": 9
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Military Basic Allowance for Subsistence (BAS)",
+        "Name": "Military Basic Allowance for Subsistence (BAS)",
+        "Description": null,
+        "DisplayOrder": 10
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Municipal Bond Interest",
+        "Name": "Municipal Bond Interest",
+        "Description": null,
+        "DisplayOrder": 11
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Public Assistance",
+        "Name": "Public Assistance",
+        "Description": null,
+        "DisplayOrder": 12
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Railroad Pension",
+        "Name": "Railroad Pension",
+        "Description": null,
+        "DisplayOrder": 13
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Rental",
+        "Name": "Rental",
+        "Description": null,
+        "DisplayOrder": 14
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Retirement",
+        "Name": "Retirement",
+        "Description": null,
+        "DisplayOrder": 15
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Social Security Benefits",
+        "Name": "Social Security Benefits",
+        "Description": null,
+        "DisplayOrder": 16
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Workman's Compensation",
+        "Name": "Workman's Compensation",
+        "Description": null,
+        "DisplayOrder": 17
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Other Taxable",
+        "Name": "Other Taxable",
+        "Description": null,
+        "DisplayOrder": 51
+    },
+    {
+        "Type": "IncomeSourceType",
+        "Value": "Other Non-Taxable",
+        "Name": "Other Non-Taxable",
+        "Description": null,
+        "DisplayOrder": 52
+    }
+]

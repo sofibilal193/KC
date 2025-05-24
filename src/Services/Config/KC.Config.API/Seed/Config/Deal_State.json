@@ -1,0 +1,37 @@
+[
+    {
+      "Type": "DealState",
+      "Value": "1",
+      "Name": "New",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "DealState",
+      "Value": "2",
+      "Name": "Active",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "DealState",
+      "Value": "3",
+      "Name": "Inactive",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "DealState",
+      "Value": "4",
+      "Name": "Blocked",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "DealState",
+      "Value": "5",
+      "Name": "Closed",
+      "Description": null,
+      "DisplayOrder": 5
+    }
+  ]

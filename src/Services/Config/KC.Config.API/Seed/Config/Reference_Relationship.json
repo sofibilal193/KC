@@ -1,0 +1,79 @@
+[
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Brother",
+      "Name": "Brother",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Child",
+      "Name": "Child",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Co-Worker",
+      "Name": "Co-Worker",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Family",
+      "Name": "Family",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Friend",
+      "Name": "Friend",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Grand Child",
+      "Name": "Grand Child",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Grand Parent",
+      "Name": "Grand Parent",
+      "Description": null,
+      "DisplayOrder": 7
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Parent",
+      "Name": "Parent",
+      "Description": null,
+      "DisplayOrder": 8
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Partner",
+      "Name": "Partner",
+      "Description": null,
+      "DisplayOrder": 9
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Sister",
+      "Name": "Sister",
+      "Description": null,
+      "DisplayOrder": 10
+    },
+    {
+      "Type": "ReferenceRelation",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 99
+    }
+  ]

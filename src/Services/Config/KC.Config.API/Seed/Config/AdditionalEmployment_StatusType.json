@@ -1,0 +1,30 @@
+[
+    {
+        "Type": "AdditionalEmploymentStatusType",
+        "Value": "W2",
+        "Name": "Employed - W2",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "AdditionalEmploymentStatusType",
+        "Value": "1099",
+        "Name": "Employed - 1099",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "AdditionalEmploymentStatusType",
+        "Value": "SELF",
+        "Name": "Self Employed",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "AdditionalEmploymentStatusType",
+        "Value": "MILITARY",
+        "Name": "Military",
+        "Description": null,
+        "DisplayOrder": 4
+    }
+]

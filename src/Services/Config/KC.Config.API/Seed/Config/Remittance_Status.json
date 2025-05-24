@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "RemittanceStatus",
+    "Value": "0",
+    "Name": "New",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "RemittanceStatus",
+    "Value": "1",
+    "Name": "Remitted",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "RemittanceStatus",
+    "Value": "2",
+    "Name": "Voided",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "RemittanceStatus",
+    "Value": "3",
+    "Name": "Cancelled",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "RemittanceStatus",
+    "Value": "4",
+    "Name": "Expired",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "RemittanceStatus",
+    "Value": "9",
+    "Name": "Archived",
+    "Description": null,
+    "DisplayOrder": 6
+  }
+]

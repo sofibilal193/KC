@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "TaxJurisdiction",
+    "Name": "Dealer",
+    "Value": "0",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "TaxJurisdiction",
+    "Name": "Customer",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

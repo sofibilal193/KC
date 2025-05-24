@@ -1,0 +1,30 @@
+[
+    {
+      "Type": "ImmigrationStatus",
+      "Value": "Citizen",
+      "Name": "Citizen",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "ImmigrationStatus",
+      "Value": "PermanentResident",
+      "Name": "Permanent Resident",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "ImmigrationStatus",
+      "Value": "WorkPermit",
+      "Name": "Work Permit",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "ImmigrationStatus",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 4
+    }
+  ]

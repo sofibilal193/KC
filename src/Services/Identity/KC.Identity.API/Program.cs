@@ -1,5 +1,5 @@
 using KC.Infrastructure.Common.AppConfig;
-using ODL.Identity.API;
+using KC.Identity.API;
 
 namespace KC.Identity.API
 {

@@ -1,0 +1,78 @@
+[
+  {
+    "Category": "Security",
+    "Description": "Notifications related to security events.",
+    "Notifications": [
+      {
+        "Name": "User Password Changed",
+        "Description": "This notification is sent when a change is made to your account password.",
+        "InApp": true,
+        "InAppRoles": [],
+        "Email": true,
+        "SMS": false
+      },
+      {
+        "Name": "User Profile Updated",
+        "Description": "This notification is sent when a change is made to your account profile.",
+        "InApp": true,
+        "InAppRoles": [],
+        "Email": true,
+        "SMS": false
+      }
+    ]
+  },
+  {
+    "Category": "Notes",
+    "Description": "Notifications related to notes events.",
+    "Notifications": [
+      {
+        "Name": "New Mention in Notes",
+        "Description": "This notification is sent when you are mentioned in a note.",
+        "InApp": true,
+        "InAppRoles": [],
+        "Email": true,
+        "SMS": false
+      }
+    ]
+  },
+  {
+    "Category": "Quotes",
+    "Description": "Notifications related to quote events.",
+    "Notifications": [
+      {
+        "Name": "Quote Approval Request",
+        "Description": "This notification is sent when a quote approval request is sent to you.",
+        "InApp": true,
+        "InAppRoles": ["Sales Manager"],
+        "Email":true,
+        "EmailAddresses": [],
+        "SMS":false,
+        "SMSAddresses":[]
+      },
+      {
+        "Name": "Quote Approved",
+        "Description": "This notification is sent when a quote is approved.",
+        "InApp": true,
+        "InAppRoles": ["Sales", "Sales Manager"],
+        "Email": true,
+        "EmailAddresses": [],
+        "SMS": false,
+        "SMSAddresses": []
+      }
+    ]
+  },
+  {
+    "Category": "Credit Apps",
+    "Description": "Notifications related to credit applications.",
+    "Notifications": [
+      {
+        "Name": "Credit App Completed",
+        "Description": "This notification is sent to the user who sent the credit application link to a customer and is subsequently completed.",
+        "InApp": true,
+        "InAppRoles": [],
+        "Email": true,
+        "SMS": false
+      }
+    ]
+  }
+]

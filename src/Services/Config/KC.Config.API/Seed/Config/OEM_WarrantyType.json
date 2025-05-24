@@ -1,0 +1,16 @@
+[
+    {
+      "Type": "OEMWarrantyType",
+      "Value": "1",
+      "Name": "In Warranty",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "OEMWarrantyType",
+      "Value": "0",
+      "Name": "Out of Warranty",
+      "Description": null,
+      "DisplayOrder": 2
+    }
+]

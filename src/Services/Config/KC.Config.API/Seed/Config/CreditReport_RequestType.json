@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "RequestType",
+    "Value": "0",
+    "Name": "Full Credit Report",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "RequestType",
+    "Value": "2",
+    "Name": "Soft Pull Report",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

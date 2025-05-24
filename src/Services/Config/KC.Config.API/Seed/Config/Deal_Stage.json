@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "DealStage",
+    "Value": "1",
+    "Name": "Quote",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealStage",
+    "Value": "2",
+    "Name": "Deal",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

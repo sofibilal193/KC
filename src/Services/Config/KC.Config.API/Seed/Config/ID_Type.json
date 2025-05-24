@@ -1,0 +1,23 @@
+[
+    {
+      "Type": "IDType",
+      "Value": "Drivers License",
+      "Name": "Drivers License",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "IDType",
+      "Value": "State ID",
+      "Name": "State ID",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "IDType",
+      "Value": "Passport",
+      "Name": "Passport",
+      "Description": null,
+      "DisplayOrder": 3
+    }
+]

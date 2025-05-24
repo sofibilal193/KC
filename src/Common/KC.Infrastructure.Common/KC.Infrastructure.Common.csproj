@@ -45,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ODL.Application.Common\ODL.Application.Common.csproj" />
+    <ProjectReference Include="..\KC.Application.Common\KC.Application.Common.csproj" />
   </ItemGroup>
 
 </Project>

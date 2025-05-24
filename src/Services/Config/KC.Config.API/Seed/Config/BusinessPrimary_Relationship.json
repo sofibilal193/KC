@@ -1,0 +1,44 @@
+[
+    {
+      "Type": "BusinessRelation",
+      "Value": "Owner",
+      "Name": "Owner",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "BusinessRelation",
+      "Value": "Officer",
+      "Name": "Officer",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "BusinessRelation",
+      "Value": "Director",
+      "Name": "Director",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "BusinessRelation",
+      "Value": "Manager",
+      "Name": "Manager",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "BusinessRelation",
+      "Value": "Guarantor",
+      "Name": "Guarantor",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "BusinessRelation",
+      "Value": "Other",
+      "Name": "Other",
+      "Description": null,
+      "DisplayOrder": 6
+    }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[a-zA-Z0-9]*$",
+    "Name": "AlphaNumeric",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[a-zA-Z0-9_-]*$",
+    "Name": "AlphaNumericExtended",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[0-9]*$",
+    "Name": "Numeric",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^\\(\\d{3}\\) \\d{3}-\\d{4}$",
+    "Name": "PhoneNumber",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[\\w\\.\\-\\+]{1,}@{1}[\\w\\-]{1,}(\\.{1}[\\w\\-]{1,}){1,}$",
+    "Name": "Email",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "https?://(www\\.)?[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
+    "Name": "Url",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^\\d{5}(-\\d{4})?$",
+    "Name": "ZipCode",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^\\d{3}-\\d{2}-\\d{4}$",
+    "Name": "SocialSecurityNumber",
+    "Description": null,
+    "DisplayOrder": 8
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^\\d{2}-\\d{7}$",
+    "Name": "FederalTaxId",
+    "Description": null,
+    "DisplayOrder": 9
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "[^\\w]*",
+    "Name": "Code",
+    "Description": null,
+    "DisplayOrder": 10
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[a-zA-Z][a-zA-Z0-9]*$",
+    "Name": "AlphaNumericBeginsAlpha",
+    "Description": null,
+    "DisplayOrder": 11
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "[^a-zA-Z0-9]",
+    "Name": "NonAlphaNumeric",
+    "Description": null,
+    "DisplayOrder": 12
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[A-Za-z\\x{00C0}-\\x{00FF}][A-Za-z\\x{00C0}-\\x{00FF}\\'\\-]+([\\ A-Za-z\\x{00C0}-\\x{00FF}][A-Za-z\\x{00C0}-\\x{00FF}\\'\\-]+)*$",
+    "Name": "PersonName",
+    "Description": null,
+    "DisplayOrder": 13
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^(\\d*\\.?\\d*)\\s*(\\D*)$",
+    "Name": "NumberWithOptionalSuffix",
+    "Description": null,
+    "DisplayOrder": 14
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Z]([A-Za-z0-9\\s.'-]?[A-Za-z0-9\\s])*)$",
+    "Name": "IndividualNames",
+    "Description": null,
+    "DisplayOrder": 15
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^(?:[A-Z0-9][A-Za-z0-9&\\s.',-]*)?$",
+    "Name": "BusinessNames",
+    "Description": null,
+    "DisplayOrder": 16
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Z0-9#]([(A-Za-z0-9)\\s#.',-]?[A-Za-z0-9\\s.])*)$",
+    "Name": "Addresses",
+    "Description": null,
+    "DisplayOrder": 17
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([0-9]([0-9-]?[0-9\\s])*)$",
+    "Name": "TaxIdSSN",
+    "Description": null,
+    "DisplayOrder": 18
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Z0-9]([A-Z0-9-/\\s]?[A-Z0-9\\s])*)$",
+    "Name": "Ids",
+    "Description": null,
+    "DisplayOrder": 19
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^\\d{2}/\\d{2}/\\d{4}$",
+    "Name": "Dates",
+    "Description": null,
+    "DisplayOrder": 20
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^[0-9$]*$",
+    "Name": "NumericValue",
+    "Description": null,
+    "DisplayOrder": 21
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Za-z0-9@]([A-Za-z0-9\\s./@,'-]?[A-Za-z0-9\\s.])*)$",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 22
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Z0-9#]([(A-Za-z0-9)\\s%@&#.'/,\\(\\)-]?[A-Za-z0-9\\s.])*)$",
+    "Name": "StreetAddress",
+    "Description": null,
+    "DisplayOrder": 23
+  },
+  {
+    "Type": "FieldValidationRegex",
+    "Value": "^([A-Z0-9][A-Z0-9-./\\s]*[A-Z0-9/\\s])$",
+    "Name": "Model",
+    "Description": null,
+    "DisplayOrder": 24
+  }
+]

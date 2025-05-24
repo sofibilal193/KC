@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DealStage_Sales",
+    "Value": "0",
+    "Name": "Imported",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealStage_Sales",
+    "Value": "1",
+    "Name": "Created",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DealStage_Sales",
+    "Value": "2",
+    "Name": "Credit App",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DealStage_Sales",
+    "Value": "99",
+    "Name": "Dead",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

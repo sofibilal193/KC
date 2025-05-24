@@ -4,10 +4,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using Azure.Identity;
 
 namespace KC.Infrastructure.Common.AppConfig
 {
+    [ExcludeFromCodeCoverage]
     public static class IHostBuilderExtensions
     {
         public static IHostBuilder CreateHostBuilder<[DynamicallyAccessedMembers(DynamicallyAccessedMemberTypes.PublicConstructors

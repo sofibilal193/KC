@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DealStage_Presentation",
+    "Value": "7",
+    "Name": "Pending",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DealStage_Presentation",
+    "Value": "8",
+    "Name": "Rated",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DealStage_Presentation",
+    "Value": "99",
+    "Name": "Dead",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

@@ -1,0 +1,23 @@
+[
+    {
+      "Type": "NotificationState",
+      "Name": "Unread",
+      "Value": "0",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "NotificationState",
+      "Name": "Read",
+      "Value": "1",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "NotificationState",
+      "Name": "Dismissed",
+      "Value": "2",
+      "Description": null,
+      "DisplayOrder": 3
+    }
+  ]

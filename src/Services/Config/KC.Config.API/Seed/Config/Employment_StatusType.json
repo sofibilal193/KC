@@ -1,0 +1,58 @@
+[
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "W2",
+        "Name": "Employed - W2",
+        "Description": null,
+        "DisplayOrder": 1
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "1099",
+        "Name": "Employed - 1099",
+        "Description": null,
+        "DisplayOrder": 2
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "SELF",
+        "Name": "Self Employed",
+        "Description": null,
+        "DisplayOrder": 3
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "MILITARY",
+        "Name": "Military",
+        "Description": null,
+        "DisplayOrder": 4
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "RETIRED",
+        "Name": "Retired",
+        "Description": null,
+        "DisplayOrder": 5
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "HOME",
+        "Name": "Home Maker",
+        "Description": null,
+        "DisplayOrder": 6
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "STUDENT",
+        "Name": "Student",
+        "Description": null,
+        "DisplayOrder": 7
+    },
+    {
+        "Type": "EmploymentStatusType",
+        "Value": "UNEMPLOYED",
+        "Name": "Unemployed",
+        "Description": null,
+        "DisplayOrder": 8
+    }
+]

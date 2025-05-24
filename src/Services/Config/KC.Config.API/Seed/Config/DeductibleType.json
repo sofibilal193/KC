@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DeductibleType",
+    "Value": "0",
+    "Name": "Normal",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DeductibleType",
+    "Value": "1",
+    "Name": "Disappearing",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DeductibleType",
+    "Value": "2",
+    "Name": "Reducing",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DeductibleType",
+    "Value": "3",
+    "Name": "Variable",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

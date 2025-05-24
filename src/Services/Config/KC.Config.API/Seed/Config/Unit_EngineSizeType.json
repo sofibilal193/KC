@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "UnitEngineSizeType",
+    "Name": "CC",
+    "Value": "0",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "UnitEngineSizeType",
+    "Name": "L",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 2
+  }
+]

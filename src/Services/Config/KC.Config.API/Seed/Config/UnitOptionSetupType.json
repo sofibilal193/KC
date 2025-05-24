@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "UnitOptionSetupType",
+    "Name": "Setup/Prep",
+    "Value": "1",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "UnitOptionSetupType",
+    "Name": "Dealer Add (Installed)",
+    "Value": "2",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "UnitOptionSetupType",
+    "Name": "Customer Add (Not Installed)",
+    "Value": "3",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "UnitOptionSetupType",
+    "Name": "Warranty",
+    "Value": "4",
+    "Description": null,
+    "DisplayOrder": 4
+  }
+]

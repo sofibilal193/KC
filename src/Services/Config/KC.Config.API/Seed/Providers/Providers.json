@@ -1,0 +1,814 @@
+[
+  {
+    "Type": 4,
+    "Code": "galt",
+    "Name": "Galt Enterprises",
+    "Description": "Galt Enterprises, Inc. ('Galt') is proudly celebrating over 40 years in business. For more than a quarter century, Galt and its sister company ServiceGuard Systems, Inc. have offered and administered Extended Service Contracts, GAP products, Credit Life and Disability Insurance, and other related products to the Automotive, Powersports, Trailer, Marine, and RV industries. We continue to offer our A.M. Best A-rated fully insured programs and our F&I Online Internet-based menu sales system continues as a support tool to our dealers.",
+    "Phone": "(800) 248-4258",
+    "Website": "http://www.galtenterprises.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "34555 CHAGRIN BLVD.",
+      "Address2": "SUITE 100",
+      "City": "MORELAND HILLS",
+      "State": "OH",
+      "ZipCode": "44022"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 0,
+    "Code": "lightspeed",
+    "Name": "Lightspeed DMS",
+    "Description": "Lightspeed, located in Salt Lake City, Utah, specializes in dealership management software solutions across the Powersports, Marine & RV industries. Lightspeed EVO is the #1 DMS used within the Recreation industry.",
+    "Phone": "(800) 521-0309",
+    "Website": "https://www.lightspeeddms.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "215 N Admiral Byrd Rd.",
+      "Address2": "Ste 150",
+      "City": "Salt Lake City",
+      "State": "UT",
+      "ZipCode": "84116"
+    },
+    "Tags": [
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsCustomerSearchEnabled",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "safeguard",
+    "Name": "Safe-Guard Products",
+    "Description": "Safe-Guard provides products and solutions to the motor vehicle industry that protect consumers from the perils of ownership. Our products complement manufacturers’ warranties both during and after the factory warranty period.",
+    "Phone": "(800) 742-7896",
+    "Website": "https://www.safe-guardproducts.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "Two Concourse Parkway",
+      "Address2": "Suite 500",
+      "City": "Atlanta",
+      "State": "GA",
+      "ZipCode": "30328"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 3,
+    "Code": "700credit",
+    "Name": "700 Credit - HARD PULL",
+    "Description": "700Credit is the largest provider of credit reports, compliance solutions and soft pull products to automotive, RV, marine and powersports dealers. Enable this option for HARD PULL CREDIT REPORTS.",
+    "Phone": "(866) 273-3848",
+    "Website": "https://www.700credit.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "31440 Northwestern Hwy",
+      "Address2": "Ste 250",
+      "City": "Farmington Hills",
+      "State": "MI",
+      "ZipCode": "48334"
+    },
+    "Tags": [
+      {
+        "Name": "CredentialType",
+        "Value": "Account"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      }
+    ]
+  },
+  {
+    "Type": 3,
+    "Code": "700credit-soft",
+    "Name": "700 Credit - SOFT PULL",
+    "Description": "700Credit is the largest provider of credit reports, compliance solutions and soft pull products to automotive, RV, marine and powersports dealers. Enable this option for SOFT PULL CREDIT REPORTS.",
+    "Phone": "(866) 273-3848",
+    "Website": "https://www.700credit.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "31440 Northwestern Hwy",
+      "Address2": "Ste 250",
+      "City": "Farmington Hills",
+      "State": "MI",
+      "ZipCode": "48334"
+    },
+    "Tags": [
+      {
+        "Name": "CredentialType",
+        "Value": "Account"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "polaris",
+    "Name": "Polaris",
+    "Description": null,
+    "Phone": "(877) 472-1372",
+    "Website": "https://www.protectmypolaris.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "2100 Highway 55",
+      "Address2": null,
+      "City": "Medina",
+      "State": "MN",
+      "ZipCode": "55340"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "brp",
+    "Name": "BRP",
+    "Description": null,
+    "Phone": "(469) 808-7205",
+    "Website": "https://www.brp.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "7300 Dallas Parkway",
+      "Address2": "Ste A120",
+      "City": "Plano",
+      "State": "TX",
+      "ZipCode": "75024"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "hondacare",
+    "Name": "HondaCare",
+    "Description": null,
+    "Phone": "(866) 784-1870",
+    "Website": "https://powersports.honda.com/hondacare-protection-plan",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "4900 Marconi Drive",
+      "Address2": null,
+      "City": "Alpharetta",
+      "State": "GA",
+      "ZipCode": "30005"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "faymyers",
+    "Name": "Fay Myers",
+    "Description": null,
+    "Phone": "(303) 381-2470",
+    "Website": "https://www.faymyers.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "9700 E Arapahoe Rd.",
+      "Address2": null,
+      "City": "Greenwood Village",
+      "State": "CO",
+      "ZipCode": "80112"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "None"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "steamboat",
+    "Name": "Steamboat Powersports",
+    "Description": null,
+    "Phone": "(970) 879-5138",
+    "Website": "https://www.steamboatpowersports.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "2989 Riverside Plaza",
+      "Address2": null,
+      "City": "Steamboat Springs",
+      "State": "CO",
+      "ZipCode": "80487"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "None"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "kawasaki",
+    "Name": "Kawasaki",
+    "Description": null,
+    "Phone": "(800) 357-8540",
+    "Website": "https://kpp.kawasaki.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "26972 Burbank",
+      "Address2": null,
+      "City": "Foothill Ranch",
+      "State": "CA",
+      "ZipCode": "92610"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "suzuki",
+    "Name": "Suzuki",
+    "Description": null,
+    "Phone": "(866) 913-3298",
+    "Website": "https://www.suzukisepdirect.com/",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "1020 Main Ave. NW",
+      "Address2": null,
+      "City": "Hickory",
+      "State": "NC",
+      "ZipCode": "28601"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "mosites",
+    "Name": "Mosites Motorsports",
+    "Description": null,
+    "Phone": "(412) 376-2300",
+    "Website": "https://www.naenwan.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "1701 Lincoln Highway",
+      "Address2": null,
+      "City": "North Versailles",
+      "State": "PA",
+      "ZipCode": "15137"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "cso",
+    "Name": "Central States Health & Life Co. of Omaha",
+    "Description": null,
+    "Phone": "(800) 826-6587",
+    "Website": "https://www.cso.com/",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "1212 North 96th Street",
+      "Address2": null,
+      "City": "Omaha",
+      "State": "NE",
+      "ZipCode": "68114"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "tecassured-riders",
+    "Name": "Rider's Advantage",
+    "Description": "Rider's Advantage is the fastest growing Powersports Finance and Insurance provider in the country. Our model is simple: World class customer service and fast, fair, and efficient claims adjudication. The Rider's Advantage team looks forward to opportunities to help our dealers and customers, we thrive on their satisfaction. We are unique in an industry that is generally poorly served. We are not a Third Party Administrator. We are backed by the best and most financially secure insurance companies in the world, this allows for a very unique relationship with our dealer partners. Financial Security combined with innovative products and a highly competitive pricing model, no one else compares.",
+    "Phone": "(918) 266-1200",
+    "Website": "https://www.riders-advantage.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "PO Box 310",
+      "Address2": null,
+      "City": "Catoosa",
+      "State": "OK",
+      "ZipCode": "74015"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingConfirmationRequired",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetFormFieldsEnabled",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 0,
+    "Code": "dp360",
+    "Name": "DP360 CRM",
+    "Description": "DP360 is the leading CRM industry experts with over a decade of experience bringing process, procedure, and accountability to numerous Powersports Dealerships in the United States, Canada, and the United Kingdom. The Dealership Performance 360 CRM Management Team has worked with over 13 manufacturers, 72 of the Top 100 Dealer Groups, and 2000 retailers including global brands such as Harley-Davidson, Polaris, Indian, BRP, Suzuki, Kawasaki, BMW, Arctic Cat, John Deere and many more.",
+    "Phone": "(800) 516-1768",
+    "Website": "https://www.dealershipperformancecrm.com/",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "PO Box 146",
+      "Address2": null,
+      "City": "Wilsonville",
+      "State": "OR",
+      "ZipCode": "97062"
+    },
+    "Tags": [
+      {
+        "Name": "CredentialType",
+        "Value": "Name"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsCustomerSearchEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "LeadExportEmail",
+        "Value": "v2_leads@dp360crm.com"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "yamaha",
+    "Name": "Yamaha",
+    "Description": null,
+    "Phone": "(866) 937-3983",
+    "Website": "https://www.yamaha-motor-yes.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "6555 Katella Ave",
+      "Address2": "ATTN: Y.E.S. Department",
+      "City": "Cypress",
+      "State": "CA",
+      "ZipCode": "90630"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  },
+  {
+    "Type": 4,
+    "Code": "cfmoto",
+    "Name": "CFMOTO",
+    "Description": null,
+    "Phone": "(763) 398-2690",
+    "Website": "https://www.cfmotousa.com",
+    "Address": {
+      "Type": "Primary",
+      "Address1": "5005 Nathan Lane N.",
+      "Address2": "Plymouth, MN",
+      "City": "Plymouth",
+      "State": "MN",
+      "ZipCode": "55442"
+    },
+    "Tags": [
+      {
+        "Name": "IsGetDealerProductsEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "CredentialType",
+        "Value": "DealerId"
+      },
+      {
+        "Name": "IsApiEnrollmentEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsRatingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsContractingEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsProductSeedingEnabled",
+        "Value": "true"
+      },
+      {
+        "Name": "IsGetContractsEnabled",
+        "Value": "false"
+      },
+      {
+        "Name": "IsDefaultProvider",
+        "Value": "true"
+      }
+    ]
+  }
+]

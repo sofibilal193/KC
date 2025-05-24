@@ -1,0 +1,51 @@
+[
+    {
+      "Type": "NameSuffix",
+      "Value": "SR",
+      "Name": "SR",
+      "Description": null,
+      "DisplayOrder": 1
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "JR",
+      "Name": "JR",
+      "Description": null,
+      "DisplayOrder": 2
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "I",
+      "Name": "I",
+      "Description": null,
+      "DisplayOrder": 3
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "II",
+      "Name": "II",
+      "Description": null,
+      "DisplayOrder": 4
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "III",
+      "Name": "III",
+      "Description": null,
+      "DisplayOrder": 5
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "IV",
+      "Name": "IV",
+      "Description": null,
+      "DisplayOrder": 6
+    },
+    {
+      "Type": "NameSuffix",
+      "Value": "V",
+      "Name": "V",
+      "Description": null,
+      "DisplayOrder": 7
+    }
+]

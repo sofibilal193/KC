@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "UnitAge",
+    "Value": "0",
+    "Name": "New",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "UnitAge",
+    "Value": "1",
+    "Name": "Used",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "UnitAge",
+    "Value": "2",
+    "Name": "CPO",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "UnitAge",
+    "Value": "3",
+    "Name": "Consignment",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "UnitAge",
+    "Value": "4",
+    "Name": "On Order",
+    "Description": null,
+    "DisplayOrder": 5
+  }
+]
