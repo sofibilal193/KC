@@ -10,7 +10,7 @@ namespace KC.Mono.API
             return services;
         }
 
-        public static IApplicationBuilder UseMonoApi(this IApplicationBuilder app, IConfiguration config)
+        public static IApplicationBuilder UseMonoApi(this IApplicationBuilder app, Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration configuration)
         {
             app.UseIdentityApi();
             return app;

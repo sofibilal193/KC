@@ -1,18 +1,16 @@
+using KC.Infrastructure.Common.AppConfig;
+
 namespace KC.Mono.API
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            args.CreateHostBuilder<Startup>()
+                .AddAppConfig()
+                .Build()
+                .Run();
         }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
     }
 
 }
